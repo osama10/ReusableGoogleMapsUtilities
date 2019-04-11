@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0D9DB4225CABCC00B4AB39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DB3225CABCC00B4AB39 /* AppDelegate.swift */; };
+		4A0D9DB6225CABCC00B4AB39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DB5225CABCC00B4AB39 /* ViewController.swift */; };
+		4A0D9DB9225CABCC00B4AB39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D9DB7225CABCC00B4AB39 /* Main.storyboard */; };
+		4A0D9DBB225CABCE00B4AB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D9DBA225CABCE00B4AB39 /* Assets.xcassets */; };
+		4A0D9DBE225CABCE00B4AB39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D9DBC225CABCE00B4AB39 /* LaunchScreen.storyboard */; };
+		4A0D9DC9225CD02800B4AB39 /* SessionManagerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DC8225CD02800B4AB39 /* SessionManagerStore.swift */; };
+		4A0D9DCC225CD55B00B4AB39 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DCB225CD55B00B4AB39 /* BaseURL.swift */; };
+		4A0D9DCE225CD5B500B4AB39 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DCD225CD5B500B4AB39 /* API.swift */; };
+		4A0D9DD0225CD73700B4AB39 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DCF225CD73700B4AB39 /* NetworkResult.swift */; };
+		4A0D9DD2225CD75600B4AB39 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DD1225CD75600B4AB39 /* RequestError.swift */; };
+		4A0D9DD4225CD7B700B4AB39 /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DD3225CD7B700B4AB39 /* DTO.swift */; };
+		4A0D9DD6225CD7D800B4AB39 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DD5225CD7D800B4AB39 /* NetworkError.swift */; };
+		4A0D9DD8225CDA2F00B4AB39 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DD7225CDA2F00B4AB39 /* Endpoint.swift */; };
+		4A0D9DDB225CDB1E00B4AB39 /* URLRequest+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DDA225CDB1E00B4AB39 /* URLRequest+Networking.swift */; };
+		4A0D9DDE225DD05400B4AB39 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DDD225DD05400B4AB39 /* NetworkManager.swift */; };
+		4A0D9DE0225DD06700B4AB39 /* EndpointProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DDF225DD06700B4AB39 /* EndpointProvider.swift */; };
+		4A0D9DE2225DD0E700B4AB39 /* EmptyDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DE1225DD0E700B4AB39 /* EmptyDTO.swift */; };
+		4A0D9DE5225DD12600B4AB39 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DE4225DD12600B4AB39 /* URLSessionManager.swift */; };
+		4A0D9DE7225E0F9B00B4AB39 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DE6225E0F9B00B4AB39 /* Routing.swift */; };
+		4A0D9DEA225E103C00B4AB39 /* RoutingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DE9225E103C00B4AB39 /* RoutingService.swift */; };
+		4A0D9DEE225E10A800B4AB39 /* TravelMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9DED225E10A800B4AB39 /* TravelMode.swift */; };
+		4A0D9E19225E393000B4AB39 /* RoutingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E18225E393000B4AB39 /* RoutingRequest.swift */; };
+		4A0D9E1D225E39BD00B4AB39 /* RoutingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E1C225E39BD00B4AB39 /* RoutingResponse.swift */; };
+		4A0D9E20225E3BBF00B4AB39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E1F225E3BBF00B4AB39 /* Extensions.swift */; };
+		4A0D9E22225E3BEB00B4AB39 /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E21225E3BEB00B4AB39 /* API+Extensions.swift */; };
+		4A0D9E24225E3C3400B4AB39 /* BaseURL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E23225E3C3400B4AB39 /* BaseURL+Extensions.swift */; };
+		4A3FDC1A225F8CFD0015060C /* RoutingEndpointProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC19225F8CFD0015060C /* RoutingEndpointProvider.swift */; };
+		4A3FDC1C225FA7980015060C /* RouteInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC1B225FA7980015060C /* RouteInfoDTO.swift */; };
+		4A3FDC1E225FB40A0015060C /* DirectionsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC1D225FB40A0015060C /* DirectionsResult.swift */; };
+		4A3FDC20225FCE0D0015060C /* ExtraRouteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC1F225FCE0D0015060C /* ExtraRouteInfo.swift */; };
+		FEA6058808130977D0125DB2 /* Pods_VDMapFrameworkTestApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0D9DB0225CABCC00B4AB39 /* VDMapFrameworkTestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDMapFrameworkTestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0D9DB3225CABCC00B4AB39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A0D9DB5225CABCC00B4AB39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A0D9DB8225CABCC00B4AB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0D9DBA225CABCE00B4AB39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0D9DBD225CABCE00B4AB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0D9DBF225CABCE00B4AB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0D9DC8225CD02800B4AB39 /* SessionManagerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerStore.swift; sourceTree = "<group>"; };
+		4A0D9DCB225CD55B00B4AB39 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		4A0D9DCD225CD5B500B4AB39 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4A0D9DCF225CD73700B4AB39 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		4A0D9DD1225CD75600B4AB39 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		4A0D9DD3225CD7B700B4AB39 /* DTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
+		4A0D9DD5225CD7D800B4AB39 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4A0D9DD7225CDA2F00B4AB39 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		4A0D9DDA225CDB1E00B4AB39 /* URLRequest+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Networking.swift"; sourceTree = "<group>"; };
+		4A0D9DDD225DD05400B4AB39 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4A0D9DDF225DD06700B4AB39 /* EndpointProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProvider.swift; sourceTree = "<group>"; };
+		4A0D9DE1225DD0E700B4AB39 /* EmptyDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDTO.swift; sourceTree = "<group>"; };
+		4A0D9DE4225DD12600B4AB39 /* URLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		4A0D9DE6225E0F9B00B4AB39 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		4A0D9DE9225E103C00B4AB39 /* RoutingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingService.swift; sourceTree = "<group>"; };
+		4A0D9DED225E10A800B4AB39 /* TravelMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelMode.swift; sourceTree = "<group>"; };
+		4A0D9E18225E393000B4AB39 /* RoutingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingRequest.swift; sourceTree = "<group>"; };
+		4A0D9E1C225E39BD00B4AB39 /* RoutingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingResponse.swift; sourceTree = "<group>"; };
+		4A0D9E1F225E3BBF00B4AB39 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4A0D9E21225E3BEB00B4AB39 /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
+		4A0D9E23225E3C3400B4AB39 /* BaseURL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseURL+Extensions.swift"; sourceTree = "<group>"; };
+		4A3FDC19225F8CFD0015060C /* RoutingEndpointProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingEndpointProvider.swift; sourceTree = "<group>"; };
+		4A3FDC1B225FA7980015060C /* RouteInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteInfoDTO.swift; sourceTree = "<group>"; };
+		4A3FDC1D225FB40A0015060C /* DirectionsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsResult.swift; sourceTree = "<group>"; };
+		4A3FDC1F225FCE0D0015060C /* ExtraRouteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraRouteInfo.swift; sourceTree = "<group>"; };
+		50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMapFrameworkTestApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800CC03970CF9DFD373E0116 /* Pods-VDMapFrameworkTestApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		B3D0697BA3FD06F9172750FD /* Pods-VDMapFrameworkTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0D9DAD225CABCC00B4AB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA6058808130977D0125DB2 /* Pods_VDMapFrameworkTestApplication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0D9DA7225CABCC00B4AB39 = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DB2225CABCC00B4AB39 /* VDMapFrameworkTestApplication */,
+				4A0D9DB1225CABCC00B4AB39 /* Products */,
+				74DC6EE4B0FA9AE8BA888E2C /* Pods */,
+				B4E53232FB463CEB413A4CF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0D9DB1225CABCC00B4AB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DB0225CABCC00B4AB39 /* VDMapFrameworkTestApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0D9DB2225CABCC00B4AB39 /* VDMapFrameworkTestApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9E1E225E3BB200B4AB39 /* Extensions */,
+				4A0D9DEB225E105E00B4AB39 /* Routing */,
+				4A0D9DC6225CCFE300B4AB39 /* Network */,
+				4A0D9DB3225CABCC00B4AB39 /* AppDelegate.swift */,
+				4A0D9DB5225CABCC00B4AB39 /* ViewController.swift */,
+				4A0D9DB7225CABCC00B4AB39 /* Main.storyboard */,
+				4A0D9DBA225CABCE00B4AB39 /* Assets.xcassets */,
+				4A0D9DBC225CABCE00B4AB39 /* LaunchScreen.storyboard */,
+				4A0D9DBF225CABCE00B4AB39 /* Info.plist */,
+			);
+			path = VDMapFrameworkTestApplication;
+			sourceTree = "<group>";
+		};
+		4A0D9DC6225CCFE300B4AB39 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9E15225E38F600B4AB39 /* EndpointProviders */,
+				4A0D9DE8225E102C00B4AB39 /* Services */,
+				4A0D9DE3225DD10400B4AB39 /* Manager */,
+				4A0D9DDC225DD02100B4AB39 /* Protocols */,
+				4A0D9DD9225CDAF900B4AB39 /* Extension */,
+				4A0D9DCA225CD03800B4AB39 /* Models */,
+				4A0D9DC7225CD01700B4AB39 /* SessionManager */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4A0D9DC7225CD01700B4AB39 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DC8225CD02800B4AB39 /* SessionManagerStore.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		4A0D9DCA225CD03800B4AB39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DCB225CD55B00B4AB39 /* BaseURL.swift */,
+				4A0D9DCD225CD5B500B4AB39 /* API.swift */,
+				4A0D9DCF225CD73700B4AB39 /* NetworkResult.swift */,
+				4A0D9DD1225CD75600B4AB39 /* RequestError.swift */,
+				4A0D9DD3225CD7B700B4AB39 /* DTO.swift */,
+				4A0D9DD5225CD7D800B4AB39 /* NetworkError.swift */,
+				4A0D9DD7225CDA2F00B4AB39 /* Endpoint.swift */,
+				4A0D9DE1225DD0E700B4AB39 /* EmptyDTO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A0D9DD9225CDAF900B4AB39 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DDA225CDB1E00B4AB39 /* URLRequest+Networking.swift */,
+				4A0D9E21225E3BEB00B4AB39 /* API+Extensions.swift */,
+				4A0D9E23225E3C3400B4AB39 /* BaseURL+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4A0D9DDC225DD02100B4AB39 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DDD225DD05400B4AB39 /* NetworkManager.swift */,
+				4A0D9DDF225DD06700B4AB39 /* EndpointProvider.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4A0D9DE3225DD10400B4AB39 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DE4225DD12600B4AB39 /* URLSessionManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4A0D9DE8225E102C00B4AB39 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DE9225E103C00B4AB39 /* RoutingService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4A0D9DEB225E105E00B4AB39 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DEC225E106800B4AB39 /* Model */,
+				4A0D9DE6225E0F9B00B4AB39 /* Routing.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		4A0D9DEC225E106800B4AB39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DED225E10A800B4AB39 /* TravelMode.swift */,
+				4A3FDC1B225FA7980015060C /* RouteInfoDTO.swift */,
+				4A3FDC1D225FB40A0015060C /* DirectionsResult.swift */,
+				4A3FDC1F225FCE0D0015060C /* ExtraRouteInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A0D9E15225E38F600B4AB39 /* EndpointProviders */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9E16225E38FE00B4AB39 /* Routing */,
+			);
+			path = EndpointProviders;
+			sourceTree = "<group>";
+		};
+		4A0D9E16225E38FE00B4AB39 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC18225F8CE10015060C /* EndpointProvider */,
+				4A0D9E1A225E399400B4AB39 /* Response */,
+				4A0D9E17225E391D00B4AB39 /* Request */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		4A0D9E17225E391D00B4AB39 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9E18225E393000B4AB39 /* RoutingRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4A0D9E1A225E399400B4AB39 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9E1C225E39BD00B4AB39 /* RoutingResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		4A0D9E1E225E3BB200B4AB39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9E1F225E3BBF00B4AB39 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A3FDC18225F8CE10015060C /* EndpointProvider */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC19225F8CFD0015060C /* RoutingEndpointProvider.swift */,
+			);
+			path = EndpointProvider;
+			sourceTree = "<group>";
+		};
+		74DC6EE4B0FA9AE8BA888E2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				800CC03970CF9DFD373E0116 /* Pods-VDMapFrameworkTestApplication.debug.xcconfig */,
+				B3D0697BA3FD06F9172750FD /* Pods-VDMapFrameworkTestApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4E53232FB463CEB413A4CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0D9DAF225CABCC00B4AB39 /* VDMapFrameworkTestApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0D9DC2225CABCE00B4AB39 /* Build configuration list for PBXNativeTarget "VDMapFrameworkTestApplication" */;
+			buildPhases = (
+				7A0F5D1EE88C4D1D36107AA6 /* [CP] Check Pods Manifest.lock */,
+				4A0D9DAC225CABCC00B4AB39 /* Sources */,
+				4A0D9DAD225CABCC00B4AB39 /* Frameworks */,
+				4A0D9DAE225CABCC00B4AB39 /* Resources */,
+				ACE6CCE9EC8A3AB0A5E0D9AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDMapFrameworkTestApplication;
+			productName = VDMapFrameworkTestApplication;
+			productReference = 4A0D9DB0225CABCC00B4AB39 /* VDMapFrameworkTestApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0D9DA8225CABCC00B4AB39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Osama;
+				TargetAttributes = {
+					4A0D9DAF225CABCC00B4AB39 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A0D9DAB225CABCC00B4AB39 /* Build configuration list for PBXProject "VDMapFrameworkTestApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0D9DA7225CABCC00B4AB39;
+			productRefGroup = 4A0D9DB1225CABCC00B4AB39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0D9DAF225CABCC00B4AB39 /* VDMapFrameworkTestApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0D9DAE225CABCC00B4AB39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0D9DBE225CABCE00B4AB39 /* LaunchScreen.storyboard in Resources */,
+				4A0D9DBB225CABCE00B4AB39 /* Assets.xcassets in Resources */,
+				4A0D9DB9225CABCC00B4AB39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A0F5D1EE88C4D1D36107AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VDMapFrameworkTestApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE6CCE9EC8A3AB0A5E0D9AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0D9DAC225CABCC00B4AB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3FDC1E225FB40A0015060C /* DirectionsResult.swift in Sources */,
+				4A0D9DE7225E0F9B00B4AB39 /* Routing.swift in Sources */,
+				4A0D9DD2225CD75600B4AB39 /* RequestError.swift in Sources */,
+				4A0D9DDE225DD05400B4AB39 /* NetworkManager.swift in Sources */,
+				4A0D9DD0225CD73700B4AB39 /* NetworkResult.swift in Sources */,
+				4A3FDC1A225F8CFD0015060C /* RoutingEndpointProvider.swift in Sources */,
+				4A0D9DEA225E103C00B4AB39 /* RoutingService.swift in Sources */,
+				4A0D9DE0225DD06700B4AB39 /* EndpointProvider.swift in Sources */,
+				4A0D9E24225E3C3400B4AB39 /* BaseURL+Extensions.swift in Sources */,
+				4A0D9DB6225CABCC00B4AB39 /* ViewController.swift in Sources */,
+				4A0D9DD4225CD7B700B4AB39 /* DTO.swift in Sources */,
+				4A0D9E22225E3BEB00B4AB39 /* API+Extensions.swift in Sources */,
+				4A0D9DD8225CDA2F00B4AB39 /* Endpoint.swift in Sources */,
+				4A0D9DE2225DD0E700B4AB39 /* EmptyDTO.swift in Sources */,
+				4A0D9DC9225CD02800B4AB39 /* SessionManagerStore.swift in Sources */,
+				4A0D9DEE225E10A800B4AB39 /* TravelMode.swift in Sources */,
+				4A0D9DE5225DD12600B4AB39 /* URLSessionManager.swift in Sources */,
+				4A0D9E20225E3BBF00B4AB39 /* Extensions.swift in Sources */,
+				4A0D9DCC225CD55B00B4AB39 /* BaseURL.swift in Sources */,
+				4A3FDC1C225FA7980015060C /* RouteInfoDTO.swift in Sources */,
+				4A0D9DD6225CD7D800B4AB39 /* NetworkError.swift in Sources */,
+				4A0D9E1D225E39BD00B4AB39 /* RoutingResponse.swift in Sources */,
+				4A0D9E19225E393000B4AB39 /* RoutingRequest.swift in Sources */,
+				4A0D9DB4225CABCC00B4AB39 /* AppDelegate.swift in Sources */,
+				4A0D9DDB225CDB1E00B4AB39 /* URLRequest+Networking.swift in Sources */,
+				4A0D9DCE225CD5B500B4AB39 /* API.swift in Sources */,
+				4A3FDC20225FCE0D0015060C /* ExtraRouteInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A0D9DB7225CABCC00B4AB39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0D9DB8225CABCC00B4AB39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0D9DBC225CABCE00B4AB39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0D9DBD225CABCE00B4AB39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0D9DC0225CABCE00B4AB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A0D9DC1225CABCE00B4AB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0D9DC3225CABCE00B4AB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800CC03970CF9DFD373E0116 /* Pods-VDMapFrameworkTestApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VDMapFrameworkTestApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osama.VDMapFrameworkTestApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0D9DC4225CABCE00B4AB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D0697BA3FD06F9172750FD /* Pods-VDMapFrameworkTestApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VDMapFrameworkTestApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osama.VDMapFrameworkTestApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0D9DAB225CABCC00B4AB39 /* Build configuration list for PBXProject "VDMapFrameworkTestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0D9DC0225CABCE00B4AB39 /* Debug */,
+				4A0D9DC1225CABCE00B4AB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0D9DC2225CABCE00B4AB39 /* Build configuration list for PBXNativeTarget "VDMapFrameworkTestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0D9DC3225CABCE00B4AB39 /* Debug */,
+				4A0D9DC4225CABCE00B4AB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0D9DA8225CABCC00B4AB39 /* Project object */;
+}
