@@ -10,16 +10,9 @@ import Foundation
 import GoogleMaps
 
 
-protocol Routing {
-    var mapView : GMSMapView{ get }
-    func createPath(routingInfoDTO : RouteInfoDTO, width : CGFloat , color : UIColor, extraInfo : @escaping ExtraRouteInfo)
-}
-
-
 public class RoutingImp : Routing{
     
     var mapView: GMSMapView
-   
     private var routingService : RoutingService!
   
     init(mapView : GMSMapView, routingService : RoutingService = RoutingServiceImp()) {
@@ -27,7 +20,7 @@ public class RoutingImp : Routing{
         self.routingService = routingService
     }
     
-    func createPath(routingInfoDTO : RouteInfoDTO, width : CGFloat = 6.0, color : UIColor = .red, extraInfo : @escaping ExtraRouteInfo){
+    func createPath(routingInfoDTO : RouteInfoDTO, width : CGFloat = 6.0, color : UIColor = .red, extraInfo : @escaping DirectionResultCompletion){
        
         routingService.getDirections(routeInfoDTO: routingInfoDTO) { [weak self](result) in
             guard let self = self else { return }
@@ -41,14 +34,37 @@ public class RoutingImp : Routing{
         }
     }
     
-     private func handleSuccessFlowForDirectionCall(data : RoutingResponse, width : CGFloat, color : UIColor, extraInfo : @escaping ExtraRouteInfo){
-        extraInfo(data)
+    func getTimeAndDistance(routingInfoDTO: RouteInfoDTO, result: @escaping DistanceResultCompletion) {
+        self.routingService.getTimeAndDistance(routeInfoDTO: routingInfoDTO) { [weak self](response) in
+            guard let self = self else { return }
+            switch response{
+            case .success(let data):
+                self.handleSuccessFlowForDistanceCall(data: data, result: result)
+            case .failure(let errorMessage):
+                self.handleFailureFlowForDistanceCall(errorMessage: errorMessage, result: result)
+            }
+        }
+    }
+    
+     private func handleSuccessFlowForDirectionCall(data : DirectionResponse, width : CGFloat, color : UIColor, extraInfo : @escaping DirectionResultCompletion){
+        extraInfo(.success(data))
         data.routes?.forEach({ (route) in
             let points = route.overviewPolyline?.points
             self.createPathOnMap(points: points!, width: width, color: color, map: self.mapView)
         })
     }
     
+    private func handleFailureFlowForDirectionCall(errorMessage : String, extraInfo : @escaping DirectionResultCompletion){
+        extraInfo(.failure(errorMessage))
+    }
+    
+    private func handleSuccessFlowForDistanceCall(data : DistanceData, result : @escaping DistanceResultCompletion){
+        result(.success(data))
+    }
+    
+    private func handleFailureFlowForDistanceCall(errorMessage : String, result : @escaping DistanceResultCompletion){
+        result(.failure(errorMessage))
+    }
     
     private func createPathOnMap(points : String, width : CGFloat, color : UIColor, map : GMSMapView){
         let path = GMSPath.init(fromEncodedPath: points)
@@ -58,8 +74,5 @@ public class RoutingImp : Routing{
         singleLine.map = map
     }
     
-    private func handleFailureFlowForDirectionCall(errorMessage : String, extraInfo : @escaping ExtraRouteInfo){
-        extraInfo(nil)
-        // to be discussed with the team
-    }
+ 
 }

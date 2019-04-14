@@ -8,10 +8,11 @@
 
 import Foundation
 
-struct RoutingRequest : DTO{
+struct DirectionRequest : DTO{
     
     var origin : String
     var destination : String
     var key : String
-    
+    var mode : String
+    var alternatives : String
 }

@@ -32,7 +32,7 @@ public class URLSessionManager : NetworkManager {
         if let requestData = urlRequest.httpBody {
            print(requestData)
         }
-        
+        print(urlRequest.url )
         let task = manager.dataTask(with: urlRequest) { [weak self](data, response, error) in
             
             let result: NetworkResult<E.Response, E.Failure, NetworkError>

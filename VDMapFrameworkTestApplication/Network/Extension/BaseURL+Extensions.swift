@@ -9,5 +9,5 @@
 import Foundation
 
 extension BaseURL{
-     static var routingBaseURL : BaseURL = .init(scheme: "https", host: "maps.googleapis.com")
+     static var baseURL : BaseURL = .init(scheme: "https", host: "maps.googleapis.com")
 }

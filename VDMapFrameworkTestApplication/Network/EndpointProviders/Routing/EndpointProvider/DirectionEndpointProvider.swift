@@ -1,19 +1,19 @@
 //
-//  RoutingEndpointProvider.swift
+//  DirectionEndpointProvider.swift
 //  VDMapFrameworkTestApplication
 //
-//  Created by Osama Bin Bashir on 11/04/2019.
+//  Created by Osama Bin Bashir on 14/04/2019.
 //  Copyright © 2019 Osama. All rights reserved.
 //
 
 import Foundation
 
-struct RoutingEndpointProvider : DTO {
-    let requestObject : RoutingRequest
+struct DirectionEndpointProvider : DTO {
+    let requestObject : DirectionRequest
 }
 
-extension RoutingEndpointProvider : EndpointProvider{
-    typealias Response = RoutingResponse
+extension DirectionEndpointProvider : EndpointProvider{
+    typealias Response = DirectionResponse
     
     typealias Body = EmptyDTO
     

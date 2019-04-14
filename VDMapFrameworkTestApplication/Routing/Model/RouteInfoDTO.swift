@@ -13,4 +13,6 @@ struct RouteInfoDTO {
     var origin : CLLocationCoordinate2D
     var destination : CLLocationCoordinate2D
     var key : String
+    var mode : TravelMode?
+    var alternatives : Alternatives?
 }

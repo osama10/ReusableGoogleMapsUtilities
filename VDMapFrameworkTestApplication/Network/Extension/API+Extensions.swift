@@ -11,7 +11,7 @@ import Foundation
 
 extension API{
     struct RoutingAPI {
-        static let directions = API(baseURL: .routingBaseURL , path: ["maps", "api", "directions", "json"])
-        
+        static let directions = API(baseURL: .baseURL , path: ["maps", "api", "directions", "json"])
+        static let distance = API(baseURL: .baseURL , path: ["maps", "api", "distancematrix", "json"])
     }
 }

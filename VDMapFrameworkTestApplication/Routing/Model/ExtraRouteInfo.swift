@@ -8,4 +8,4 @@
 
 import Foundation
 
-typealias ExtraRouteInfo = (RoutingResponse?)->Void
+typealias ExtraRouteInfo = (DirectionResponse?)->Void

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct RoutingResponse: DTO {
+struct DirectionResponse: DTO {
     
     let geocodedWaypoints: [GeocodedWaypoint]?
     let routes: [Route]?

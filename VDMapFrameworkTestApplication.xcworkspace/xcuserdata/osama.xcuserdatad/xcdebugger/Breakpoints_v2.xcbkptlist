@@ -6,127 +6,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/ViewController.swift"
-            timestampString = "576692845.008216"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/ViewController.swift"
-            timestampString = "576692845.008289"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/ViewController.swift"
-            timestampString = "576692845.008345"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576692845.008396"
+            filePath = "VDMapFrameworkTestApplication/Routing/RoutingImp.swift"
+            timestampString = "576951670.573747"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576692845.008445"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576692845.008489"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "request(_:completion:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "createPath(routingInfoDTO:width:color:extraInfo:)"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "VDMapFrameworkTestApplication.URLSessionManager.request&lt;A where A: VDMapFrameworkTestApplication.EndpointProvider&gt;(_: A, completion: (VDMapFrameworkTestApplication.NetworkResult&lt;A.Response, A.Failure, VDMapFrameworkTestApplication.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (VDMapFrameworkTestApplication.DirectionsResult) -&gt; () in VDMapFrameworkTestApplication.RoutingImp.createPath(routingInfoDTO: VDMapFrameworkTestApplication.RouteInfoDTO, width: CoreGraphics.CGFloat, color: __C.UIColor, extraInfo: (VDMapFrameworkTestApplication.DirectionsResult) -&gt; ()) -&gt; ()"
                   moduleName = "VDMapFrameworkTestApplication"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-                  timestampString = "576689398.546244"
+                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/Routing/RoutingImp.swift"
+                  timestampString = "576951014.258497"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "1483">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "297">
                </Location>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VDMapFrameworkTestApplication.URLSessionManager.request&lt;A where A: VDMapFrameworkTestApplication.EndpointProvider&gt;(_: A, completion: (VDMapFrameworkTestApplication.NetworkResult&lt;A.Response, A.Failure, VDMapFrameworkTestApplication.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (VDMapFrameworkTestApplication.DirectionsResult) -&gt; () in VDMapFrameworkTestApplication.RoutingImp.createPath(routingInfoDTO: VDMapFrameworkTestApplication.RouteInfoDTO, width: CoreGraphics.CGFloat, color: __C.UIColor, extraInfo: (VDMapFrameworkTestApplication.DirectionsResult) -&gt; ()) -&gt; ()"
                   moduleName = "VDMapFrameworkTestApplication"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-                  timestampString = "576689398.549608"
+                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/Routing/RoutingImp.swift"
+                  timestampString = "576951014.260941"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "672">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "344">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -138,61 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576692845.008534"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576692845.008575"
+            timestampString = "576951670.573845"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
             endingLineNumber = "35"
             landmarkName = "request(_:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "VDMapFrameworkTestApplication.URLSessionManager.request&lt;A where A: VDMapFrameworkTestApplication.EndpointProvider&gt;(_: A, completion: (VDMapFrameworkTestApplication.NetworkResult&lt;A.Response, A.Failure, VDMapFrameworkTestApplication.NetworkError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "VDMapFrameworkTestApplication"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-                  timestampString = "576689398.5652"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "1483">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VDMapFrameworkTestApplication.URLSessionManager.request&lt;A where A: VDMapFrameworkTestApplication.EndpointProvider&gt;(_: A, completion: (VDMapFrameworkTestApplication.NetworkResult&lt;A.Response, A.Failure, VDMapFrameworkTestApplication.NetworkError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "VDMapFrameworkTestApplication"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-                  timestampString = "576689398.567685"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "672">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -201,14 +73,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576692845.008618"
+            filePath = "VDMapFrameworkTestApplication/Network/EndpointProviders/Routing/EndpointProvider/RoutingEndpointProvider.swift"
+            timestampString = "576933120.0514441"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "endpoint"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -217,30 +89,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576692845.008659"
+            filePath = "VDMapFrameworkTestApplication/Network/EndpointProviders/Routing/EndpointProvider/RoutingEndpointProvider.swift"
+            timestampString = "576933120.0521621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "request(_:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/ViewController.swift"
-            timestampString = "576692845.008702"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "endpoint"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
