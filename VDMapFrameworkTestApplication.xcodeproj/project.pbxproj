@@ -47,6 +47,10 @@
 		4A3FDC3722637E350015060C /* DistanceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3622637E350015060C /* DistanceServices.swift */; };
 		4A3FDC3922637EA80015060C /* DistanceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3822637EA80015060C /* DistanceResult.swift */; };
 		4A3FDC3B22638ABE0015060C /* DistanceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3A22638ABE0015060C /* DistanceData.swift */; };
+		4A3FDC4022639DA80015060C /* TrafficMonitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3F22639DA80015060C /* TrafficMonitoring.swift */; };
+		4A3FDC432263A3DF0015060C /* MapTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC422263A3DF0015060C /* MapTypeManager.swift */; };
+		4A3FDC452263A4D30015060C /* MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC442263A4D30015060C /* MapType.swift */; };
+		4A3FDC482263A7120015060C /* MapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC472263A7120015060C /* MapStyle.swift */; };
 		FEA6058808130977D0125DB2 /* Pods_VDMapFrameworkTestApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +97,10 @@
 		4A3FDC3622637E350015060C /* DistanceServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceServices.swift; sourceTree = "<group>"; };
 		4A3FDC3822637EA80015060C /* DistanceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceResult.swift; sourceTree = "<group>"; };
 		4A3FDC3A22638ABE0015060C /* DistanceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceData.swift; sourceTree = "<group>"; };
+		4A3FDC3F22639DA80015060C /* TrafficMonitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMonitoring.swift; sourceTree = "<group>"; };
+		4A3FDC422263A3DF0015060C /* MapTypeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTypeManager.swift; sourceTree = "<group>"; };
+		4A3FDC442263A4D30015060C /* MapType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapType.swift; sourceTree = "<group>"; };
+		4A3FDC472263A7120015060C /* MapStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStyle.swift; sourceTree = "<group>"; };
 		50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMapFrameworkTestApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		800CC03970CF9DFD373E0116 /* Pods-VDMapFrameworkTestApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D0697BA3FD06F9172750FD /* Pods-VDMapFrameworkTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,9 +139,9 @@
 		4A0D9DB2225CABCC00B4AB39 /* VDMapFrameworkTestApplication */ = {
 			isa = PBXGroup;
 			children = (
+				4A3FDC3D22639D1B0015060C /* Features */,
 				4A3FDC26226357EB0015060C /* Utils */,
 				4A0D9E1E225E3BB200B4AB39 /* Extensions */,
-				4A0D9DEB225E105E00B4AB39 /* Routing */,
 				4A0D9DC6225CCFE300B4AB39 /* Network */,
 				4A0D9DB3225CABCC00B4AB39 /* AppDelegate.swift */,
 				4A0D9DB5225CABCC00B4AB39 /* ViewController.swift */,
@@ -320,6 +328,42 @@
 			path = RoutingServices;
 			sourceTree = "<group>";
 		};
+		4A3FDC3D22639D1B0015060C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC412263A3060015060C /* MapStyle */,
+				4A3FDC3E22639D260015060C /* TrafficMonitoring */,
+				4A0D9DEB225E105E00B4AB39 /* Routing */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4A3FDC3E22639D260015060C /* TrafficMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC3F22639DA80015060C /* TrafficMonitoring.swift */,
+			);
+			path = TrafficMonitoring;
+			sourceTree = "<group>";
+		};
+		4A3FDC412263A3060015060C /* MapStyle */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC462263A4E10015060C /* Model */,
+				4A3FDC422263A3DF0015060C /* MapTypeManager.swift */,
+				4A3FDC472263A7120015060C /* MapStyle.swift */,
+			);
+			path = MapStyle;
+			sourceTree = "<group>";
+		};
+		4A3FDC462263A4E10015060C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC442263A4D30015060C /* MapType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		74DC6EE4B0FA9AE8BA888E2C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,6 +496,7 @@
 				4A3FDC3722637E350015060C /* DistanceServices.swift in Sources */,
 				4A3FDC1E225FB40A0015060C /* DirectionsResult.swift in Sources */,
 				4A3FDC3522637CF50015060C /* DirectionServices.swift in Sources */,
+				4A3FDC4022639DA80015060C /* TrafficMonitoring.swift in Sources */,
 				4A0D9DE7225E0F9B00B4AB39 /* RoutingImp.swift in Sources */,
 				4A0D9DD2225CD75600B4AB39 /* RequestError.swift in Sources */,
 				4A0D9DDE225DD05400B4AB39 /* NetworkManager.swift in Sources */,
@@ -462,6 +507,7 @@
 				4A0D9DE0225DD06700B4AB39 /* EndpointProvider.swift in Sources */,
 				4A0D9E24225E3C3400B4AB39 /* BaseURL+Extensions.swift in Sources */,
 				4A0D9DB6225CABCC00B4AB39 /* ViewController.swift in Sources */,
+				4A3FDC432263A3DF0015060C /* MapTypeManager.swift in Sources */,
 				4A0D9DD4225CD7B700B4AB39 /* DTO.swift in Sources */,
 				4A0D9E22225E3BEB00B4AB39 /* API+Extensions.swift in Sources */,
 				4A0D9DD8225CDA2F00B4AB39 /* Endpoint.swift in Sources */,
@@ -471,10 +517,12 @@
 				4A3FDC232260ADB50015060C /* Routing.swift in Sources */,
 				4A0D9DE5225DD12600B4AB39 /* URLSessionManager.swift in Sources */,
 				4A0D9E20225E3BBF00B4AB39 /* Extensions.swift in Sources */,
+				4A3FDC452263A4D30015060C /* MapType.swift in Sources */,
 				4A0D9DCC225CD55B00B4AB39 /* BaseURL.swift in Sources */,
 				4A3FDC1C225FA7980015060C /* RouteInfoDTO.swift in Sources */,
 				4A0D9DD6225CD7D800B4AB39 /* NetworkError.swift in Sources */,
 				4A3FDC3922637EA80015060C /* DistanceResult.swift in Sources */,
+				4A3FDC482263A7120015060C /* MapStyle.swift in Sources */,
 				4A3FDC2E2263726D0015060C /* DirectionEndpointProvider.swift in Sources */,
 				4A0D9E1D225E39BD00B4AB39 /* DirectionResponse.swift in Sources */,
 				4A0D9E19225E393000B4AB39 /* DirectionRequest.swift in Sources */,

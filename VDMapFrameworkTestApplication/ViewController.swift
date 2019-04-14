@@ -16,9 +16,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var etaLabel: UILabel!
     var routing : Routing!
+    var trafficMonitoring : TrafficMonitoring!
+    var mapStyle : MapStyle!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        routing = RoutingImp(mapView: self.mapView)
+        self.routing = RoutingImp(mapView: self.mapView)
+        self.trafficMonitoring = TrafficMonitoringImp(mapView: self.mapView)
+        self.mapStyle = MapStyleImp(mapView: self.mapView)
+        
         self.createRoute()
         self.getETAAndDistance()
     }
@@ -68,5 +74,29 @@ class ViewController: UIViewController {
         }
     }
 
+ 
+    @IBAction func didTapOnTrafficeEnableSwitch(_ sender: UISwitch) {
+        self.trafficMonitoring.isTrafficEnabled = sender.isOn
+    }
+    @IBAction func didTapOnMapTypeButton(_ sender: UIButton) {
+        
+        let type = sender.tag
+        
+        switch type{
+        case 0:
+            self.mapStyle.mapType = .normal
+        case 1:
+            self.mapStyle.mapType = .none
+        case 2:
+            self.mapStyle.mapType = .hybrid
+        case 3:
+            self.mapStyle.mapType = .satellite
+        case 4:
+            self.mapStyle.mapType = .terrain
+        default:
+            print("nae hai kuch")
+            
+        }
+    }
 }
 
