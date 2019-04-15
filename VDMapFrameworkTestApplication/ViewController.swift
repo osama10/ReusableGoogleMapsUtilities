@@ -9,6 +9,7 @@
 import UIKit
 import GoogleMaps
 
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var mapView : GMSMapView!
@@ -17,12 +18,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var etaLabel: UILabel!
     var routing : Routing!
     var trafficMonitoring : TrafficMonitoring!
+    var stylingManager : MapStyle!
+    
     var mapStyle : MapStyle!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.routing = RoutingImp(mapView: self.mapView)
         self.trafficMonitoring = TrafficMonitoringImp(mapView: self.mapView)
+        self.stylingManager = MapStyleImp(mapView: self.mapView)
+        
         self.mapStyle = MapStyleImp(mapView: self.mapView)
         
         self.createRoute()
@@ -33,7 +38,7 @@ class ViewController: UIViewController {
         let origin = CLLocationCoordinate2D(latitude: 24.9207, longitude: 67.0882)
         let destination = CLLocationCoordinate2D(latitude: 24.9204, longitude: 67.1344)
         
-        let routeInfo = RouteInfoDTO(origin : origin, destination : destination , key : googleMapsApiKey, mode: .driving, alternatives: .no)//, mode: .driving, alternatives: true )
+        let routeInfo = RouteInfoDTO(origin : origin, destination : destination , key : googleMapsApiKey, mode: .driving, alternatives: .yes)//, mode: .driving, alternatives: true )
         
         let originMarker = GMSMarker(position: origin)
         
@@ -77,6 +82,7 @@ class ViewController: UIViewController {
  
     @IBAction func didTapOnTrafficeEnableSwitch(_ sender: UISwitch) {
         self.trafficMonitoring.isTrafficEnabled = sender.isOn
+
     }
     @IBAction func didTapOnMapTypeButton(_ sender: UIButton) {
         

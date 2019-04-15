@@ -9,12 +9,6 @@
 import Foundation
 import GoogleMaps
 
-protocol MapTypeManager  {
-    var mapView : GMSMapView{ get }
-    func setType(type : MapType)
-    func getMapType()->MapType
-}
-
 final class MapTypeManagerImp : MapTypeManager{
     var mapView: GMSMapView
     
@@ -22,7 +16,7 @@ final class MapTypeManagerImp : MapTypeManager{
         self.mapView = mapView
     }
     
-    func setType(type: MapType) {
+    func setType(type: MapType){
         switch type {
         case .hybrid:
             self.mapView.mapType = .hybrid
@@ -40,6 +34,7 @@ final class MapTypeManagerImp : MapTypeManager{
     
     func getMapType()->MapType{
         var mapType : MapType!
+       
         switch self.mapView.mapType {
         case .hybrid:
             mapType = .hybrid
@@ -51,7 +46,6 @@ final class MapTypeManagerImp : MapTypeManager{
             mapType = .satellite
         case .terrain:
             mapType = .terrain
-            
         }
         
         return mapType

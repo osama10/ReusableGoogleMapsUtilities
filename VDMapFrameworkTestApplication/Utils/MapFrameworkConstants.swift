@@ -9,4 +9,4 @@
 import Foundation
 
 let somethingWentWrongErrorMessage = "Someting went wrong. Please try later"
-
+let themeFileNotFoundExceptionMessage = "Theme file not found"

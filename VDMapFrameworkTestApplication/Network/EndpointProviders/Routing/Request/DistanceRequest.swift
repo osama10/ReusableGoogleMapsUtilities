@@ -8,7 +8,6 @@
 
 import Foundation
 struct DistanceRequest : DTO{
-    
     var origins : String
     var destinations : String
     var key : String

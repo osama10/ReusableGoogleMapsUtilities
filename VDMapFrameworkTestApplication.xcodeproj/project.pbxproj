@@ -47,10 +47,23 @@
 		4A3FDC3722637E350015060C /* DistanceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3622637E350015060C /* DistanceServices.swift */; };
 		4A3FDC3922637EA80015060C /* DistanceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3822637EA80015060C /* DistanceResult.swift */; };
 		4A3FDC3B22638ABE0015060C /* DistanceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3A22638ABE0015060C /* DistanceData.swift */; };
-		4A3FDC4022639DA80015060C /* TrafficMonitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3F22639DA80015060C /* TrafficMonitoring.swift */; };
-		4A3FDC432263A3DF0015060C /* MapTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC422263A3DF0015060C /* MapTypeManager.swift */; };
+		4A3FDC4022639DA80015060C /* TrafficMonitoringImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC3F22639DA80015060C /* TrafficMonitoringImp.swift */; };
+		4A3FDC432263A3DF0015060C /* MapTypeManagerImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC422263A3DF0015060C /* MapTypeManagerImp.swift */; };
 		4A3FDC452263A4D30015060C /* MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC442263A4D30015060C /* MapType.swift */; };
-		4A3FDC482263A7120015060C /* MapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC472263A7120015060C /* MapStyle.swift */; };
+		4A3FDC482263A7120015060C /* MapStyleImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC472263A7120015060C /* MapStyleImp.swift */; };
+		4A3FDC4B226453790015060C /* TrafficMonitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC4A226453790015060C /* TrafficMonitoring.swift */; };
+		4A3FDC4E226453AC0015060C /* MapTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC4D226453AC0015060C /* MapTypeManager.swift */; };
+		4A3FDC50226453CF0015060C /* MapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC4F226453CF0015060C /* MapStyle.swift */; };
+		4A98328D22648C0500005D37 /* StandardTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A98328C22648C0500005D37 /* StandardTheme.json */; };
+		4A98328F22648C4200005D37 /* SilverTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A98328E22648C4200005D37 /* SilverTheme.json */; };
+		4A98329122648C5500005D37 /* RetroTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A98329022648C5500005D37 /* RetroTheme.json */; };
+		4A98329322648C6900005D37 /* DarkTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A98329222648C6900005D37 /* DarkTheme.json */; };
+		4A98329522648C7700005D37 /* NightTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A98329422648C7700005D37 /* NightTheme.json */; };
+		4A98329722648C8F00005D37 /* AubergineTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A98329622648C8F00005D37 /* AubergineTheme.json */; };
+		4A9832992264914200005D37 /* MapThemeManagerImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9832982264914200005D37 /* MapThemeManagerImp.swift */; };
+		4A98329B2264915500005D37 /* MapThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98329A2264915500005D37 /* MapThemeManager.swift */; };
+		4A98329D2264926600005D37 /* MapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98329C2264926600005D37 /* MapTheme.swift */; };
+		4A98329F22649B4F00005D37 /* MapFrameworkExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98329E22649B4F00005D37 /* MapFrameworkExceptions.swift */; };
 		FEA6058808130977D0125DB2 /* Pods_VDMapFrameworkTestApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,10 +110,23 @@
 		4A3FDC3622637E350015060C /* DistanceServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceServices.swift; sourceTree = "<group>"; };
 		4A3FDC3822637EA80015060C /* DistanceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceResult.swift; sourceTree = "<group>"; };
 		4A3FDC3A22638ABE0015060C /* DistanceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceData.swift; sourceTree = "<group>"; };
-		4A3FDC3F22639DA80015060C /* TrafficMonitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMonitoring.swift; sourceTree = "<group>"; };
-		4A3FDC422263A3DF0015060C /* MapTypeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTypeManager.swift; sourceTree = "<group>"; };
+		4A3FDC3F22639DA80015060C /* TrafficMonitoringImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMonitoringImp.swift; sourceTree = "<group>"; };
+		4A3FDC422263A3DF0015060C /* MapTypeManagerImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTypeManagerImp.swift; sourceTree = "<group>"; };
 		4A3FDC442263A4D30015060C /* MapType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapType.swift; sourceTree = "<group>"; };
-		4A3FDC472263A7120015060C /* MapStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStyle.swift; sourceTree = "<group>"; };
+		4A3FDC472263A7120015060C /* MapStyleImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStyleImp.swift; sourceTree = "<group>"; };
+		4A3FDC4A226453790015060C /* TrafficMonitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMonitoring.swift; sourceTree = "<group>"; };
+		4A3FDC4D226453AC0015060C /* MapTypeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTypeManager.swift; sourceTree = "<group>"; };
+		4A3FDC4F226453CF0015060C /* MapStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStyle.swift; sourceTree = "<group>"; };
+		4A98328C22648C0500005D37 /* StandardTheme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StandardTheme.json; sourceTree = "<group>"; };
+		4A98328E22648C4200005D37 /* SilverTheme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SilverTheme.json; sourceTree = "<group>"; };
+		4A98329022648C5500005D37 /* RetroTheme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RetroTheme.json; sourceTree = "<group>"; };
+		4A98329222648C6900005D37 /* DarkTheme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DarkTheme.json; sourceTree = "<group>"; };
+		4A98329422648C7700005D37 /* NightTheme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NightTheme.json; sourceTree = "<group>"; };
+		4A98329622648C8F00005D37 /* AubergineTheme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AubergineTheme.json; sourceTree = "<group>"; };
+		4A9832982264914200005D37 /* MapThemeManagerImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThemeManagerImp.swift; sourceTree = "<group>"; };
+		4A98329A2264915500005D37 /* MapThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThemeManager.swift; sourceTree = "<group>"; };
+		4A98329C2264926600005D37 /* MapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTheme.swift; sourceTree = "<group>"; };
+		4A98329E22649B4F00005D37 /* MapFrameworkExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFrameworkExceptions.swift; sourceTree = "<group>"; };
 		50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMapFrameworkTestApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		800CC03970CF9DFD373E0116 /* Pods-VDMapFrameworkTestApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D0697BA3FD06F9172750FD /* Pods-VDMapFrameworkTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +165,7 @@
 		4A0D9DB2225CABCC00B4AB39 /* VDMapFrameworkTestApplication */ = {
 			isa = PBXGroup;
 			children = (
+				4A98328B22648BD900005D37 /* MapThemes */,
 				4A3FDC3D22639D1B0015060C /* Features */,
 				4A3FDC26226357EB0015060C /* Utils */,
 				4A0D9E1E225E3BB200B4AB39 /* Extensions */,
@@ -228,9 +255,9 @@
 		4A0D9DEB225E105E00B4AB39 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
-				4A3FDC212260AD920015060C /* Protocol */,
+				4A3FDC51226453FB0015060C /* Implementation */,
+				4A3FDC212260AD920015060C /* Contract */,
 				4A0D9DEC225E106800B4AB39 /* Model */,
-				4A0D9DE6225E0F9B00B4AB39 /* RoutingImp.swift */,
 			);
 			path = Routing;
 			sourceTree = "<group>";
@@ -302,18 +329,19 @@
 			path = EndpointProvider;
 			sourceTree = "<group>";
 		};
-		4A3FDC212260AD920015060C /* Protocol */ = {
+		4A3FDC212260AD920015060C /* Contract */ = {
 			isa = PBXGroup;
 			children = (
 				4A3FDC222260ADB50015060C /* Routing.swift */,
 			);
-			path = Protocol;
+			path = Contract;
 			sourceTree = "<group>";
 		};
 		4A3FDC26226357EB0015060C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				4A3FDC27226358070015060C /* MapFrameworkConstants.swift */,
+				4A98329E22649B4F00005D37 /* MapFrameworkExceptions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -341,7 +369,8 @@
 		4A3FDC3E22639D260015060C /* TrafficMonitoring */ = {
 			isa = PBXGroup;
 			children = (
-				4A3FDC3F22639DA80015060C /* TrafficMonitoring.swift */,
+				4A3FDC522264540C0015060C /* Implementation */,
+				4A3FDC492264534C0015060C /* Contract */,
 			);
 			path = TrafficMonitoring;
 			sourceTree = "<group>";
@@ -349,9 +378,9 @@
 		4A3FDC412263A3060015060C /* MapStyle */ = {
 			isa = PBXGroup;
 			children = (
+				4A3FDC53226454170015060C /* Implementation */,
+				4A3FDC4C2264538B0015060C /* Contracts */,
 				4A3FDC462263A4E10015060C /* Model */,
-				4A3FDC422263A3DF0015060C /* MapTypeManager.swift */,
-				4A3FDC472263A7120015060C /* MapStyle.swift */,
 			);
 			path = MapStyle;
 			sourceTree = "<group>";
@@ -360,8 +389,66 @@
 			isa = PBXGroup;
 			children = (
 				4A3FDC442263A4D30015060C /* MapType.swift */,
+				4A98329C2264926600005D37 /* MapTheme.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4A3FDC492264534C0015060C /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC4A226453790015060C /* TrafficMonitoring.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		4A3FDC4C2264538B0015060C /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC4D226453AC0015060C /* MapTypeManager.swift */,
+				4A3FDC4F226453CF0015060C /* MapStyle.swift */,
+				4A98329A2264915500005D37 /* MapThemeManager.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		4A3FDC51226453FB0015060C /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D9DE6225E0F9B00B4AB39 /* RoutingImp.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		4A3FDC522264540C0015060C /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC3F22639DA80015060C /* TrafficMonitoringImp.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		4A3FDC53226454170015060C /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FDC422263A3DF0015060C /* MapTypeManagerImp.swift */,
+				4A3FDC472263A7120015060C /* MapStyleImp.swift */,
+				4A9832982264914200005D37 /* MapThemeManagerImp.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		4A98328B22648BD900005D37 /* MapThemes */ = {
+			isa = PBXGroup;
+			children = (
+				4A98328C22648C0500005D37 /* StandardTheme.json */,
+				4A98328E22648C4200005D37 /* SilverTheme.json */,
+				4A98329022648C5500005D37 /* RetroTheme.json */,
+				4A98329222648C6900005D37 /* DarkTheme.json */,
+				4A98329422648C7700005D37 /* NightTheme.json */,
+				4A98329622648C8F00005D37 /* AubergineTheme.json */,
+			);
+			path = MapThemes;
 			sourceTree = "<group>";
 		};
 		74DC6EE4B0FA9AE8BA888E2C /* Pods */ = {
@@ -441,9 +528,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A98329122648C5500005D37 /* RetroTheme.json in Resources */,
+				4A98329322648C6900005D37 /* DarkTheme.json in Resources */,
 				4A0D9DBE225CABCE00B4AB39 /* LaunchScreen.storyboard in Resources */,
+				4A98328D22648C0500005D37 /* StandardTheme.json in Resources */,
+				4A98329522648C7700005D37 /* NightTheme.json in Resources */,
 				4A0D9DBB225CABCE00B4AB39 /* Assets.xcassets in Resources */,
+				4A98329722648C8F00005D37 /* AubergineTheme.json in Resources */,
 				4A0D9DB9225CABCC00B4AB39 /* Main.storyboard in Resources */,
+				4A98328F22648C4200005D37 /* SilverTheme.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,20 +587,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3FDC3722637E350015060C /* DistanceServices.swift in Sources */,
+				4A9832992264914200005D37 /* MapThemeManagerImp.swift in Sources */,
 				4A3FDC1E225FB40A0015060C /* DirectionsResult.swift in Sources */,
 				4A3FDC3522637CF50015060C /* DirectionServices.swift in Sources */,
-				4A3FDC4022639DA80015060C /* TrafficMonitoring.swift in Sources */,
+				4A3FDC4B226453790015060C /* TrafficMonitoring.swift in Sources */,
+				4A3FDC4022639DA80015060C /* TrafficMonitoringImp.swift in Sources */,
 				4A0D9DE7225E0F9B00B4AB39 /* RoutingImp.swift in Sources */,
 				4A0D9DD2225CD75600B4AB39 /* RequestError.swift in Sources */,
 				4A0D9DDE225DD05400B4AB39 /* NetworkManager.swift in Sources */,
 				4A0D9DD0225CD73700B4AB39 /* NetworkResult.swift in Sources */,
+				4A98329D2264926600005D37 /* MapTheme.swift in Sources */,
 				4A3FDC252263535D0015060C /* Alternatives.swift in Sources */,
 				4A3FDC1A225F8CFD0015060C /* DistanceEndpointProvider.swift in Sources */,
 				4A0D9DEA225E103C00B4AB39 /* RoutingService.swift in Sources */,
 				4A0D9DE0225DD06700B4AB39 /* EndpointProvider.swift in Sources */,
+				4A3FDC4E226453AC0015060C /* MapTypeManager.swift in Sources */,
 				4A0D9E24225E3C3400B4AB39 /* BaseURL+Extensions.swift in Sources */,
 				4A0D9DB6225CABCC00B4AB39 /* ViewController.swift in Sources */,
-				4A3FDC432263A3DF0015060C /* MapTypeManager.swift in Sources */,
+				4A3FDC432263A3DF0015060C /* MapTypeManagerImp.swift in Sources */,
 				4A0D9DD4225CD7B700B4AB39 /* DTO.swift in Sources */,
 				4A0D9E22225E3BEB00B4AB39 /* API+Extensions.swift in Sources */,
 				4A0D9DD8225CDA2F00B4AB39 /* Endpoint.swift in Sources */,
@@ -522,8 +619,11 @@
 				4A3FDC1C225FA7980015060C /* RouteInfoDTO.swift in Sources */,
 				4A0D9DD6225CD7D800B4AB39 /* NetworkError.swift in Sources */,
 				4A3FDC3922637EA80015060C /* DistanceResult.swift in Sources */,
-				4A3FDC482263A7120015060C /* MapStyle.swift in Sources */,
+				4A3FDC482263A7120015060C /* MapStyleImp.swift in Sources */,
+				4A3FDC50226453CF0015060C /* MapStyle.swift in Sources */,
+				4A98329B2264915500005D37 /* MapThemeManager.swift in Sources */,
 				4A3FDC2E2263726D0015060C /* DirectionEndpointProvider.swift in Sources */,
+				4A98329F22649B4F00005D37 /* MapFrameworkExceptions.swift in Sources */,
 				4A0D9E1D225E39BD00B4AB39 /* DirectionResponse.swift in Sources */,
 				4A0D9E19225E393000B4AB39 /* DirectionRequest.swift in Sources */,
 				4A3FDC3B22638ABE0015060C /* DistanceData.swift in Sources */,

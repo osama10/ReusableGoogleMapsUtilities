@@ -9,10 +9,6 @@
 import Foundation
 import GoogleMaps
 
-protocol TrafficMonitoring {
-    var isTrafficEnabled : Bool{ get set }
-}
-
 final class TrafficMonitoringImp : TrafficMonitoring{
     
     weak var mapView : GMSMapView!
