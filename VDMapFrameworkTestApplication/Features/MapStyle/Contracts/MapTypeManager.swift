@@ -10,7 +10,7 @@ import Foundation
 import GoogleMaps
 
 protocol MapTypeManager  {
-    var mapView : GMSMapView{ get }
-    func setType(type : MapType)
-    func getMapType()->MapType
+    
+    func getGMSMapType(type : MapType)->GMSMapViewType
+     func getVDMapType(type : GMSMapViewType)->MapType
 }

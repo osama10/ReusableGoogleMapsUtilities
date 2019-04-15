@@ -16,14 +16,17 @@ final class MapStyleImp : MapStyle{
     private var mapThemeManager : MapThemeManager
     
     var mapType: MapType{
-        get{ return self.mapTypeManager?.getMapType() ?? .normal }
-        set{ self.mapTypeManager?.setType(type: newValue) }
+        get{ return self.mapTypeManager?.getVDMapType(type: self.mapView.mapType) ?? .normal  }
+        set{
+            let type = self.mapTypeManager?.getGMSMapType(type: newValue)
+            self.mapView.mapType = type ?? .normal
+        }
     }
    
-    init(mapView : GMSMapView) {
+    init(mapView : GMSMapView, mapTypeManager : MapTypeManager = MapTypeManagerImp(), mapThemeManager : MapThemeManager = MapThemeManagerImp()) {
         self.mapView = mapView
-        self.mapTypeManager = MapTypeManagerImp(mapView: self.mapView)
-        self.mapThemeManager = MapThemeManagerImp() //discuss krna hai
+        self.mapTypeManager = mapTypeManager
+        self.mapThemeManager = mapThemeManager //discuss krna hai
     }
     
     func setDefaultTheme(theme: MapTheme) {
