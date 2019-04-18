@@ -39,7 +39,7 @@ final class MapTypeManagerImp : MapTypeManager{
         case .normal:
             mapType = .normal
         case .none:
-            mapType = .none
+            mapType = MapType.none
         case .satellite:
             mapType = .satellite
         case .terrain:

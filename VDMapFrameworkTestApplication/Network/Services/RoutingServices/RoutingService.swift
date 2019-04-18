@@ -29,11 +29,11 @@ class RoutingServiceImp : RoutingService{
     
     func getDirections(routeInfoDTO: RouteInfoDTO, completion : @escaping DirectionResultCompletion) {
         
-        self.directionServices.getDirections(routeInfoDTO: routeInfoDTO, completion: completion)
+        directionServices.getDirections(routeInfoDTO: routeInfoDTO, completion: completion)
     }
     
     func getTimeAndDistance(routeInfoDTO: RouteInfoDTO, completion: @escaping DistanceResultCompletion) {
-        self.distanceServices.getTimeAndDistance(routeInfoDTO: routeInfoDTO, completion: completion)
+        distanceServices.getTimeAndDistance(routeInfoDTO: routeInfoDTO, completion: completion)
     }
 
 }

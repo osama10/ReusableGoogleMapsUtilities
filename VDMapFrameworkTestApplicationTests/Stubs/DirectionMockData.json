@@ -1,0 +1,728 @@
+{
+"geocoded_waypoints" : [
+{
+"geocoder_status" : "OK",
+"place_id" : "ChIJb8tbVTE_sz4Ryz5iv1tR8dE",
+"types" : [ "street_address" ]
+},
+{
+"geocoder_status" : "OK",
+"place_id" : "ChIJ9_D2Rvo4sz4RZioeZL0vA2I",
+"types" : [
+"bus_station",
+"establishment",
+"point_of_interest",
+"transit_station"
+]
+}
+],
+"routes" : [
+{
+"bounds" : {
+"northeast" : {
+"lat" : 24.9279543,
+"lng" : 67.1344093
+},
+"southwest" : {
+"lat" : 24.9125852,
+"lng" : 67.0880897
+}
+},
+"copyrights" : "Map data ©2019 Google",
+"legs" : [
+{
+"distance" : {
+"text" : "6.7 km",
+"value" : 6725
+},
+"duration" : {
+"text" : "15 mins",
+"value" : 889
+},
+"end_address" : "Munawar Chorangi, Jauhar Chowrangi Rd, Block 3-A Block 14 Gulistan-e-Johar, Karachi, Karachi City, Sindh, Pakistan",
+"end_location" : {
+"lat" : 24.9204098,
+"lng" : 67.1344093
+},
+"start_address" : "Plot A 71, Block 5 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan",
+"start_location" : {
+"lat" : 24.9207151,
+"lng" : 67.0882225
+},
+"steps" : [
+{
+"distance" : {
+"text" : "22 m",
+"value" : 22
+},
+"duration" : {
+"text" : "1 min",
+"value" : 7
+},
+"end_location" : {
+"lat" : 24.9208777,
+"lng" : 67.0880897
+},
+"html_instructions" : "Head \u003cb\u003enorth-west\u003c/b\u003e",
+"polyline" : {
+"points" : "oibwCkdnxK_@X"
+},
+"start_location" : {
+"lat" : 24.9207151,
+"lng" : 67.0882225
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.1 km",
+"value" : 100
+},
+"duration" : {
+"text" : "1 min",
+"value" : 52
+},
+"end_location" : {
+"lat" : 24.9214216,
+"lng" : 67.088882
+},
+"html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Pakistan Post towards \u003cb\u003eSardar Ali Sabri Rd\u003c/b\u003e",
+"maneuver" : "turn-right",
+"polyline" : {
+"points" : "ojbwCqcnxKu@oAu@mA"
+},
+"start_location" : {
+"lat" : 24.9208777,
+"lng" : 67.0880897
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.8 km",
+"value" : 819
+},
+"duration" : {
+"text" : "2 mins",
+"value" : 142
+},
+"end_location" : {
+"lat" : 24.9155295,
+"lng" : 67.09375930000002
+},
+"html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at PEL Service Centre onto \u003cb\u003eSardar Ali Sabri Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Ingrope Consulting Company (on the right)\u003c/div\u003e",
+"maneuver" : "turn-right",
+"polyline" : {
+"points" : "{mbwCohnxKx@q@r@m@|AkAhA}@hA{@vAiAxBeBbAu@DCbAy@z@o@rAcAbAw@ZYTOx@o@dBuAr@i@"
+},
+"start_location" : {
+"lat" : 24.9214216,
+"lng" : 67.088882
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "2.3 km",
+"value" : 2297
+},
+"duration" : {
+"text" : "4 mins",
+"value" : 239
+},
+"end_location" : {
+"lat" : 24.9279384,
+"lng" : 67.11182909999999
+},
+"html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eUniversity Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sadequain Academy (on the left in 300&nbsp;m)\u003c/div\u003e",
+"maneuver" : "turn-left",
+"polyline" : {
+"points" : "aiawC_goxKa@k@g@s@m@}@wDqF[c@]c@W_@e@m@W]W[W]k@{@]m@O_@[gAqCwD}A}BkCuDaAuAg@s@sBuC{AyBiA}AYa@W]u@gAEGeAyAc@o@qDiF_AsAEEk@}@MO}AyB_AwAQYEKCIWo@e@qACIMYa@eAO_@sAqD]}@k@aBgB}E"
+},
+"start_location" : {
+"lat" : 24.9155295,
+"lng" : 67.09375930000002
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "2.2 km",
+"value" : 2189
+},
+"duration" : {
+"text" : "4 mins",
+"value" : 229
+},
+"end_location" : {
+"lat" : 24.9126752,
+"lng" : 67.1252739
+},
+"html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e at Samama Traffic Section onto \u003cb\u003eJauhar Chowrangi Road\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Furniture and deco (on the right in 300&nbsp;m)\u003c/div\u003e",
+"maneuver" : "turn-slight-right",
+"polyline" : {
+"points" : "svcwC}wrxKAO?G?I@E?GBE@EHKDGFEHE`@U|FcCf@UXMVORMROLKJK?AXY`@e@RSdBmBZYpFuEbBwATSlB_BfAcAl@i@bA{@pAgAFGzBqB`BwA`ByA~DkDpDyCRSp@k@TSl@g@XWr@o@bA_A^[hIaHlFwE`@a@"
+},
+"start_location" : {
+"lat" : 24.9279384,
+"lng" : 67.11182909999999
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "1.3 km",
+"value" : 1298
+},
+"duration" : {
+"text" : "4 mins",
+"value" : 220
+},
+"end_location" : {
+"lat" : 24.9204098,
+"lng" : 67.1344093
+},
+"html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at Tawakkal Halwa Poori onto \u003cb\u003eAbul Asar Hafeez Jalandhari Rd\u003c/b\u003e/\u003cb\u003eJauhar Chowrangi Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Eastern Pride (on the left)\u003c/div\u003e",
+"maneuver" : "turn-left",
+"polyline" : {
+"points" : "gw`wC}kuxKJ[BQ@U@QAUCs@qCaDgCoCw@w@Y[sAuAyAuAg@i@uCyCu@}@cBmBqD{D{@_AKOWW_@c@y@{@KMgCkCiAiAa@e@s@u@OQHK"
+},
+"start_location" : {
+"lat" : 24.9126752,
+"lng" : 67.1252739
+},
+"travel_mode" : "DRIVING"
+}
+],
+"traffic_speed_entry" : [],
+"via_waypoint" : []
+}
+],
+"overview_polyline" : {
+"points" : "oibwCkdnxK_@Xu@oAu@mAx@q@pCyBrCyBzGiFvGeFpEoDr@i@a@k@uAqBiGyImBeCiAiBO_@[gAoFuHmEkGaIaLmBoCyNuSqAqBIUoAeDcDuIsC_IAWD]X_@j@[dHyCxA{@r@s@vDaExMaLtBmBtCcCfIkHpJeIdA_ApCcCbB{AvPyN`@a@J[Dg@?g@Cs@qCaD_EgEmBqBaC_CkEwE}IyJ}BeCqEuEuA{AOQHK"
+},
+"summary" : "University Rd and Jauhar Chowrangi Road",
+"warnings" : [],
+"waypoint_order" : []
+},
+{
+"bounds" : {
+"northeast" : {
+"lat" : 24.9259623,
+"lng" : 67.1344093
+},
+"southwest" : {
+"lat" : 24.9047434,
+"lng" : 67.0880897
+}
+},
+"copyrights" : "Map data ©2019 Google",
+"legs" : [
+{
+"distance" : {
+"text" : "6.9 km",
+"value" : 6914
+},
+"duration" : {
+"text" : "17 mins",
+"value" : 1035
+},
+"end_address" : "Munawar Chorangi, Jauhar Chowrangi Rd, Block 3-A Block 14 Gulistan-e-Johar, Karachi, Karachi City, Sindh, Pakistan",
+"end_location" : {
+"lat" : 24.9204098,
+"lng" : 67.1344093
+},
+"start_address" : "Plot A 71, Block 5 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan",
+"start_location" : {
+"lat" : 24.9207151,
+"lng" : 67.0882225
+},
+"steps" : [
+{
+"distance" : {
+"text" : "22 m",
+"value" : 22
+},
+"duration" : {
+"text" : "1 min",
+"value" : 7
+},
+"end_location" : {
+"lat" : 24.9208777,
+"lng" : 67.0880897
+},
+"html_instructions" : "Head \u003cb\u003enorth-west\u003c/b\u003e",
+"polyline" : {
+"points" : "oibwCkdnxK_@X"
+},
+"start_location" : {
+"lat" : 24.9207151,
+"lng" : 67.0882225
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.1 km",
+"value" : 100
+},
+"duration" : {
+"text" : "1 min",
+"value" : 52
+},
+"end_location" : {
+"lat" : 24.9214216,
+"lng" : 67.088882
+},
+"html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Pakistan Post towards \u003cb\u003eSardar Ali Sabri Rd\u003c/b\u003e",
+"maneuver" : "turn-right",
+"polyline" : {
+"points" : "ojbwCqcnxKu@oAu@mA"
+},
+"start_location" : {
+"lat" : 24.9208777,
+"lng" : 67.0880897
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "72 m",
+"value" : 72
+},
+"duration" : {
+"text" : "1 min",
+"value" : 33
+},
+"end_location" : {
+"lat" : 24.9219415,
+"lng" : 67.0884559
+},
+"html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at PEL Service Centre onto \u003cb\u003eSardar Ali Sabri Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Natioanl Saving Center (on the left)\u003c/div\u003e",
+"maneuver" : "turn-left",
+"polyline" : {
+"points" : "{mbwCohnxKMJyAfA"
+},
+"start_location" : {
+"lat" : 24.9214216,
+"lng" : 67.088882
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.2 km",
+"value" : 171
+},
+"duration" : {
+"text" : "1 min",
+"value" : 50
+},
+"end_location" : {
+"lat" : 24.9229212,
+"lng" : 67.0895934
+},
+"html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e after National Savings Centre (on the left)\u003cdiv style=\"font-size:0.9em\"\u003ePass by Man Pasand Kachori (on the left)\u003c/div\u003e",
+"maneuver" : "turn-right",
+"polyline" : {
+"points" : "cqbwC{enxKMPkDgFIK"
+},
+"start_location" : {
+"lat" : 24.9219415,
+"lng" : 67.0884559
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.3 km",
+"value" : 263
+},
+"duration" : {
+"text" : "1 min",
+"value" : 46
+},
+"end_location" : {
+"lat" : 24.9246676,
+"lng" : 67.09122049999999
+},
+"html_instructions" : "Take the slip road to \u003cb\u003eRashid Minhas Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Care Consulting Clinics (on the left)\u003c/div\u003e",
+"polyline" : {
+"points" : "gwbwC}lnxKQIGEIG?AGG]c@_@g@aCgD]]WIOCOA[A"
+},
+"start_location" : {
+"lat" : 24.9229212,
+"lng" : 67.0895934
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "91 m",
+"value" : 91
+},
+"duration" : {
+"text" : "1 min",
+"value" : 12
+},
+"end_location" : {
+"lat" : 24.9253167,
+"lng" : 67.090672
+},
+"html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eRashid Minhas Rd\u003c/b\u003e",
+"maneuver" : "turn-left",
+"polyline" : {
+"points" : "ebcwCcwnxKURUP[V[VSNIF"
+},
+"start_location" : {
+"lat" : 24.9246676,
+"lng" : 67.09122049999999
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.1 km",
+"value" : 145
+},
+"duration" : {
+"text" : "1 min",
+"value" : 25
+},
+"end_location" : {
+"lat" : 24.9256107,
+"lng" : 67.09071589999999
+},
+"html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e at Mubicommnication towards \u003cb\u003eRashid Minhas Rd\u003c/b\u003e",
+"maneuver" : "turn-slight-right",
+"polyline" : {
+"points" : "gfcwCusnxK_@NC@C@CBQL[VMJA@C@A?C@C?A?A?AAA??A?AAC@C?A@C@AFE\\WJIBC@A@CBGBI"
+},
+"start_location" : {
+"lat" : 24.9253167,
+"lng" : 67.090672
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "3.0 km",
+"value" : 2961
+},
+"duration" : {
+"text" : "5 mins",
+"value" : 284
+},
+"end_location" : {
+"lat" : 24.9068368,
+"lng" : 67.1112997
+},
+"html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e at Royal Club onto \u003cb\u003eRashid Minhas Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Saad CNG سعد سی این جی سٹیشن (on the left)\u003c/div\u003e",
+"maneuver" : "turn-slight-right",
+"polyline" : {
+"points" : "ahcwC_tnxKTMd@]n@g@PMNO`@]h@e@LIRMxAaAlDkCBAlB}AZW`@]ZUd@e@dAs@DCDE|EwD|AoAZWl@g@r@m@PSFEFGp@q@\\[tAmAt@s@t@s@d@e@`@c@DG\\_@|@eA@Ah@u@h@u@NUNS~@qAVc@NSLOJOdAyAn@{@vEqG|@iAT_@\\m@vA{B`A_Bl@gABEf@w@p@{@v@{@`AoAT]V]Va@X_@lAuBLQjAkBnAiBLQPS|AgBFGbBkBXa@\\c@V]tAiBX_@n@}@p@gALU"
+},
+"start_location" : {
+"lat" : 24.9256107,
+"lng" : 67.09071589999999
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "1.8 km",
+"value" : 1815
+},
+"duration" : {
+"text" : "5 mins",
+"value" : 302
+},
+"end_location" : {
+"lat" : 24.9122517,
+"lng" : 67.1256604
+},
+"html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAbul Asar Hafeez Jalandhari Rd\u003c/b\u003e/\u003cb\u003eProf. Ghafoor Ahmed Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Prof. Ghafoor Ahmed Rd\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Broadway Pizza (on the left)\u003c/div\u003e",
+"maneuver" : "turn-slight-left",
+"polyline" : {
+"points" : "wr_wCstrxKBMBKNULSXc@Z_@r@u@p@m@x@m@t@o@xAmAJMBGF[AUAQCUu@gBqAyCy@kByAcD]{@q@}AYo@]o@Uc@yCaFe@_AKQ}CgFq@kAkAqBEIACU_@OYo@eAi@_Aq@gAgAiBk@_AKQa@q@s@eA]m@k@y@eA{ASW"
+},
+"start_location" : {
+"lat" : 24.9068368,
+"lng" : 67.1112997
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "1.3 km",
+"value" : 1274
+},
+"duration" : {
+"text" : "4 mins",
+"value" : 224
+},
+"end_location" : {
+"lat" : 24.9204098,
+"lng" : 67.1344093
+},
+"html_instructions" : "At TAXOCRATE (Pvt) LTD, Taxation, Company Formation &amp; Trademark Attorneys, continue onto \u003cb\u003eAbul Asar Hafeez Jalandhari Rd\u003c/b\u003e/\u003cb\u003eJauhar Chowrangi Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Eastern Pride (on the left)\u003c/div\u003e",
+"polyline" : {
+"points" : "qt`wCknuxKgAqAqCaDgCoCw@w@Y[sAuAyAuAg@i@uCyCu@}@cBmBqD{D{@_AKOWW_@c@y@{@KMgCkCiAiAa@e@s@u@OQHK"
+},
+"start_location" : {
+"lat" : 24.9122517,
+"lng" : 67.1256604
+},
+"travel_mode" : "DRIVING"
+}
+],
+"traffic_speed_entry" : [],
+"via_waypoint" : []
+}
+],
+"overview_polyline" : {
+"points" : "oibwCkdnxK_@Xu@oAu@mAMJyAfAMPuDsFc@YgE{F]]WI_@E[AURq@h@o@f@i@V]To@f@K@EC?IJMn@g@DKBITMtAeA`@]lB{AxAaAlDkCpB_B~BqBjAw@bF}DzE}DrAsAhD}CbCeCzAeBj@w@hCqD`AwAjKqNlEiHp@mAxAsBxBkCl@{@p@aAzAgCzCuE^e@bF}FdDkE`BeCLUBMRa@f@w@nAuAjB{AnC}BNUF[AUEg@{GqOoAyCw@_BoDeGq@qAaHoLgHuL_CwDqBuC{AiByGqHqAsAmDkD}DcEgKgL}BgCsCyCkBoBcAgAHK"
+},
+"summary" : "Rashid Minhas Rd and Prof. Ghafoor Ahmed Rd",
+"warnings" : [],
+"waypoint_order" : []
+},
+{
+"bounds" : {
+"northeast" : {
+"lat" : 24.9354496,
+"lng" : 67.13784149999999
+},
+"southwest" : {
+"lat" : 24.9155295,
+"lng" : 67.0880897
+}
+},
+"copyrights" : "Map data ©2019 Google",
+"legs" : [
+{
+"distance" : {
+"text" : "8.0 km",
+"value" : 7962
+},
+"duration" : {
+"text" : "17 mins",
+"value" : 997
+},
+"end_address" : "Munawar Chorangi, Jauhar Chowrangi Rd, Block 3-A Block 14 Gulistan-e-Johar, Karachi, Karachi City, Sindh, Pakistan",
+"end_location" : {
+"lat" : 24.9203921,
+"lng" : 67.1344319
+},
+"start_address" : "Plot A 71, Block 5 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan",
+"start_location" : {
+"lat" : 24.9207151,
+"lng" : 67.0882225
+},
+"steps" : [
+{
+"distance" : {
+"text" : "22 m",
+"value" : 22
+},
+"duration" : {
+"text" : "1 min",
+"value" : 7
+},
+"end_location" : {
+"lat" : 24.9208777,
+"lng" : 67.0880897
+},
+"html_instructions" : "Head \u003cb\u003enorth-west\u003c/b\u003e",
+"polyline" : {
+"points" : "oibwCkdnxK_@X"
+},
+"start_location" : {
+"lat" : 24.9207151,
+"lng" : 67.0882225
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.1 km",
+"value" : 100
+},
+"duration" : {
+"text" : "1 min",
+"value" : 52
+},
+"end_location" : {
+"lat" : 24.9214216,
+"lng" : 67.088882
+},
+"html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Pakistan Post towards \u003cb\u003eSardar Ali Sabri Rd\u003c/b\u003e",
+"maneuver" : "turn-right",
+"polyline" : {
+"points" : "ojbwCqcnxKu@oAu@mA"
+},
+"start_location" : {
+"lat" : 24.9208777,
+"lng" : 67.0880897
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.8 km",
+"value" : 819
+},
+"duration" : {
+"text" : "2 mins",
+"value" : 142
+},
+"end_location" : {
+"lat" : 24.9155295,
+"lng" : 67.09375930000002
+},
+"html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at PEL Service Centre onto \u003cb\u003eSardar Ali Sabri Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Ingrope Consulting Company (on the right)\u003c/div\u003e",
+"maneuver" : "turn-right",
+"polyline" : {
+"points" : "{mbwCohnxKx@q@r@m@|AkAhA}@hA{@vAiAxBeBbAu@DCbAy@z@o@rAcAbAw@ZYTOx@o@dBuAr@i@"
+},
+"start_location" : {
+"lat" : 24.9214216,
+"lng" : 67.088882
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "4.9 km",
+"value" : 4888
+},
+"duration" : {
+"text" : "7 mins",
+"value" : 447
+},
+"end_location" : {
+"lat" : 24.9354496,
+"lng" : 67.1360344
+},
+"html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eUniversity Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sadequain Academy (on the left in 300&nbsp;m)\u003c/div\u003e",
+"maneuver" : "turn-left",
+"polyline" : {
+"points" : "aiawC_goxKa@k@g@s@m@}@wDqF[c@]c@W_@e@m@W]W[W]k@{@]m@O_@[gAqCwD}A}BkCuDaAuAg@s@sBuC{AyBiA}AYa@W]u@gAEGeAyAc@o@qDiF_AsAEEk@}@MO}AyB_AwAQYEKCIWo@e@qACIMYa@eAO_@sAqD]}@k@aBgB}E_AgC_@kASi@eCwGuAmDOc@Qa@GSc@mAQc@Mc@o@_CmAkEGSIYMc@g@mBeAuDAEg@wBUkAMs@_@{BIm@kBeLgA_H_AoFQqAScAc@}BKo@OcASoAWoAEe@c@gCaAiFOs@M}@M_AGs@UcBIq@OmAQmBCMKmAc@_E"
+},
+"start_location" : {
+"lat" : 24.9155295,
+"lng" : 67.09375930000002
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.2 km",
+"value" : 157
+},
+"duration" : {
+"text" : "1 min",
+"value" : 22
+},
+"end_location" : {
+"lat" : 24.9351031,
+"lng" : 67.1346377
+},
+"html_instructions" : "Make a \u003cb\u003eU-turn\u003c/b\u003e",
+"maneuver" : "uturn-right",
+"polyline" : {
+"points" : "qeewCeowxKREHp@@Fd@`F"
+},
+"start_location" : {
+"lat" : 24.9354496,
+"lng" : 67.1360344
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.7 km",
+"value" : 749
+},
+"duration" : {
+"text" : "2 mins",
+"value" : 121
+},
+"end_location" : {
+"lat" : 24.929274,
+"lng" : 67.1343201
+},
+"html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eShaheen School Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by R.A.R Associates (on the left)\u003c/div\u003e",
+"maneuver" : "turn-left",
+"polyline" : {
+"points" : "kcewCofwxKZEtB]REh@Kh@KfAUNCVEl@Kf@KpEy@pAUzAW|@O`@KFAPAHBB?DDHJr@zAvAhCVh@PZ"
+},
+"start_location" : {
+"lat" : 24.9351031,
+"lng" : 67.1346377
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.7 km",
+"value" : 720
+},
+"duration" : {
+"text" : "2 mins",
+"value" : 138
+},
+"end_location" : {
+"lat" : 24.9237208,
+"lng" : 67.13784149999999
+},
+"html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at ABDUL RAZZAQ CEMENT\u003cdiv style=\"font-size:0.9em\"\u003ePass by New Hazara Hotel (on the left)\u003c/div\u003e",
+"maneuver" : "turn-left",
+"polyline" : {
+"points" : "}~cwCodwxKRBV?H@J?BAlC{Av@e@\\SpBoAb@SVQh@[j@Y@CHETOh@_@r@c@t@c@HC\\U^Ur@c@z@k@\\SxA{@j@[@ARQ"
+},
+"start_location" : {
+"lat" : 24.929274,
+"lng" : 67.1343201
+},
+"travel_mode" : "DRIVING"
+},
+{
+"distance" : {
+"text" : "0.5 km",
+"value" : 507
+},
+"duration" : {
+"text" : "1 min",
+"value" : 68
+},
+"end_location" : {
+"lat" : 24.9203921,
+"lng" : 67.1344319
+},
+"html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at Kamran Chowrangi Bus Stop onto \u003cb\u003eAbul Asar Hafeez Jalandhari Rd\u003c/b\u003e/\u003cb\u003eJauhar Chowrangi Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Body Shapers Gym (on the left)\u003c/div\u003e",
+"maneuver" : "turn-right",
+"polyline" : {
+"points" : "g|bwCozwxK@?TJRN^b@LHVVTTdBnBhAdA`@f@bAbA~AlBx@z@x@z@f@h@"
+},
+"start_location" : {
+"lat" : 24.9237208,
+"lng" : 67.13784149999999
+},
+"travel_mode" : "DRIVING"
+}
+],
+"traffic_speed_entry" : [],
+"via_waypoint" : []
+}
+],
+"overview_polyline" : {
+"points" : "oibwCkdnxK_@Xu@oAu@mAx@q@pCyBrCyBzGiFvGeFpEoDr@i@a@k@uAqBiGyImBeCiAiBO_@[gAoFuHmEkGaIaLmBoCyNuSqAqBIUoAeDcDuIsFsO_GsOoAgDyGeVmA}F}EoZqAaIw@aE[sBk@_Di@mDqA}G[}B]wCo@{Fo@mGREHp@f@hFpCc@nDs@zPyCh@MZ@HDHJr@zAnBrDPZRB`@@NAtIeFpC{AjAy@pCaBlDyBdCwATSVJr@r@d@`@zBdChAdA`@f@bAbA~AlBrBvBf@h@"
+},
+"summary" : "University Rd",
+"warnings" : [],
+"waypoint_order" : []
+}
+],
+"status" : "OK"
+}

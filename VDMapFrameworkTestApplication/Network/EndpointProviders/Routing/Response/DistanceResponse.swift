@@ -10,9 +10,9 @@ import Foundation
 
 struct DistanceResponse: Codable {
   
-    let destinationAddresses, originAddresses: [String]
-    let rows: [Row]
-    let status: String
+    let destinationAddresses, originAddresses: [String]?
+    let rows: [Row]?
+    let status: String?
     let errorMessage : String?
 
     enum CodingKeys: String, CodingKey {
@@ -25,15 +25,15 @@ struct DistanceResponse: Codable {
 }
 
 struct Row: Codable {
-    let elements: [Element]
+    let elements: [Element]?
 }
 
 struct Element: Codable {
-    let distance, duration: Distance
-    let status: String
+    let distance, duration: Distance?
+    let status: String?
 }
 
 struct Distance: Codable {
-    let text: String
-    let value: Int
+    let text: String?
+    let value: Int?
 }

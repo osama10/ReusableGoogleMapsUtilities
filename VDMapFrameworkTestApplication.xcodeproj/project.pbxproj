@@ -33,6 +33,25 @@
 		4A0D9E20225E3BBF00B4AB39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E1F225E3BBF00B4AB39 /* Extensions.swift */; };
 		4A0D9E22225E3BEB00B4AB39 /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E21225E3BEB00B4AB39 /* API+Extensions.swift */; };
 		4A0D9E24225E3C3400B4AB39 /* BaseURL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D9E23225E3C3400B4AB39 /* BaseURL+Extensions.swift */; };
+		4A3AE33D2266FECD00D57C87 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE33C2266FECD00D57C87 /* MockNetworkManager.swift */; };
+		4A3AE34022670C6B00D57C87 /* DirectionMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AE33F22670C6B00D57C87 /* DirectionMockData.json */; };
+		4A3AE34222670E4D00D57C87 /* DistanceMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AE34122670E4D00D57C87 /* DistanceMockData.json */; };
+		4A3AE3442267101400D57C87 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE3432267101400D57C87 /* TestData.swift */; };
+		4A3AE3492267312000D57C87 /* ErrorMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AE3482267312000D57C87 /* ErrorMockData.json */; };
+		4A3AE34B2267369200D57C87 /* FailureMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AE34A2267369200D57C87 /* FailureMockData.json */; };
+		4A3AE34E22673E3800D57C87 /* RoutingServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE34D22673E3800D57C87 /* RoutingServicesTests.swift */; };
+		4A3AE35022673F4C00D57C87 /* MockDirectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE34F22673F4C00D57C87 /* MockDirectionService.swift */; };
+		4A3AE35222673FAC00D57C87 /* MockDistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE35122673FAC00D57C87 /* MockDistanceService.swift */; };
+		4A3AE35422674C8000D57C87 /* MapTypeManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE35322674C8000D57C87 /* MapTypeManagerTests.swift */; };
+		4A3AE3562267504D00D57C87 /* MockJsonString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE3552267504D00D57C87 /* MockJsonString.swift */; };
+		4A3AE3582267509300D57C87 /* MapThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE3572267509300D57C87 /* MapThemeManager.swift */; };
+		4A3AE359226758FD00D57C87 /* StandardTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A98328C22648C0500005D37 /* StandardTheme.json */; };
+		4A3AE35D22675FDD00D57C87 /* MapStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE35C22675FDD00D57C87 /* MapStyleTests.swift */; };
+		4A3AE35F22675FF500D57C87 /* MockMapTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE35E22675FF500D57C87 /* MockMapTypeManager.swift */; };
+		4A3AE3612267606700D57C87 /* MockThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE3602267606700D57C87 /* MockThemeManager.swift */; };
+		4A3AE3632268604900D57C87 /* TrafficMonitoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE3622268604900D57C87 /* TrafficMonitoringTests.swift */; };
+		4A3AE367226880E600D57C87 /* MockRoutingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE366226880E600D57C87 /* MockRoutingService.swift */; };
+		4A3AE36922688A5500D57C87 /* RoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE36822688A5500D57C87 /* RoutingTests.swift */; };
 		4A3FDC1A225F8CFD0015060C /* DistanceEndpointProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC19225F8CFD0015060C /* DistanceEndpointProvider.swift */; };
 		4A3FDC1C225FA7980015060C /* RouteInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC1B225FA7980015060C /* RouteInfoDTO.swift */; };
 		4A3FDC1E225FB40A0015060C /* DirectionsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC1D225FB40A0015060C /* DirectionsResult.swift */; };
@@ -64,8 +83,21 @@
 		4A98329B2264915500005D37 /* MapThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98329A2264915500005D37 /* MapThemeManager.swift */; };
 		4A98329D2264926600005D37 /* MapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98329C2264926600005D37 /* MapTheme.swift */; };
 		4A98329F22649B4F00005D37 /* MapFrameworkExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98329E22649B4F00005D37 /* MapFrameworkExceptions.swift */; };
+		4A9832A72266024900005D37 /* VDMapFrameworkTestApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9832A62266024900005D37 /* VDMapFrameworkTestApplicationTests.swift */; };
+		4A9832B4226602F300005D37 /* DistanceServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9832B3226602F300005D37 /* DistanceServicesTests.swift */; };
+		4A9832B82266032000005D37 /* DirectionServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9832B72266032000005D37 /* DirectionServices.swift */; };
 		FEA6058808130977D0125DB2 /* Pods_VDMapFrameworkTestApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A9832A92266024900005D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0D9DA8225CABCC00B4AB39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0D9DAF225CABCC00B4AB39;
+			remoteInfo = VDMapFrameworkTestApplication;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4A0D9DB0225CABCC00B4AB39 /* VDMapFrameworkTestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDMapFrameworkTestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +128,24 @@
 		4A0D9E1F225E3BBF00B4AB39 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4A0D9E21225E3BEB00B4AB39 /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
 		4A0D9E23225E3C3400B4AB39 /* BaseURL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseURL+Extensions.swift"; sourceTree = "<group>"; };
+		4A3AE33C2266FECD00D57C87 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		4A3AE33F22670C6B00D57C87 /* DirectionMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DirectionMockData.json; sourceTree = "<group>"; };
+		4A3AE34122670E4D00D57C87 /* DistanceMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DistanceMockData.json; sourceTree = "<group>"; };
+		4A3AE3432267101400D57C87 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		4A3AE3482267312000D57C87 /* ErrorMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ErrorMockData.json; sourceTree = "<group>"; };
+		4A3AE34A2267369200D57C87 /* FailureMockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FailureMockData.json; sourceTree = "<group>"; };
+		4A3AE34D22673E3800D57C87 /* RoutingServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingServicesTests.swift; sourceTree = "<group>"; };
+		4A3AE34F22673F4C00D57C87 /* MockDirectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDirectionService.swift; sourceTree = "<group>"; };
+		4A3AE35122673FAC00D57C87 /* MockDistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDistanceService.swift; sourceTree = "<group>"; };
+		4A3AE35322674C8000D57C87 /* MapTypeManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTypeManagerTests.swift; sourceTree = "<group>"; };
+		4A3AE3552267504D00D57C87 /* MockJsonString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJsonString.swift; sourceTree = "<group>"; };
+		4A3AE3572267509300D57C87 /* MapThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThemeManager.swift; sourceTree = "<group>"; };
+		4A3AE35C22675FDD00D57C87 /* MapStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStyleTests.swift; sourceTree = "<group>"; };
+		4A3AE35E22675FF500D57C87 /* MockMapTypeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMapTypeManager.swift; sourceTree = "<group>"; };
+		4A3AE3602267606700D57C87 /* MockThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockThemeManager.swift; sourceTree = "<group>"; };
+		4A3AE3622268604900D57C87 /* TrafficMonitoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMonitoringTests.swift; sourceTree = "<group>"; };
+		4A3AE366226880E600D57C87 /* MockRoutingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoutingService.swift; sourceTree = "<group>"; };
+		4A3AE36822688A5500D57C87 /* RoutingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingTests.swift; sourceTree = "<group>"; };
 		4A3FDC19225F8CFD0015060C /* DistanceEndpointProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceEndpointProvider.swift; sourceTree = "<group>"; };
 		4A3FDC1B225FA7980015060C /* RouteInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteInfoDTO.swift; sourceTree = "<group>"; };
 		4A3FDC1D225FB40A0015060C /* DirectionsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsResult.swift; sourceTree = "<group>"; };
@@ -127,6 +177,11 @@
 		4A98329A2264915500005D37 /* MapThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapThemeManager.swift; sourceTree = "<group>"; };
 		4A98329C2264926600005D37 /* MapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTheme.swift; sourceTree = "<group>"; };
 		4A98329E22649B4F00005D37 /* MapFrameworkExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFrameworkExceptions.swift; sourceTree = "<group>"; };
+		4A9832A42266024900005D37 /* VDMapFrameworkTestApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDMapFrameworkTestApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9832A62266024900005D37 /* VDMapFrameworkTestApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDMapFrameworkTestApplicationTests.swift; sourceTree = "<group>"; };
+		4A9832A82266024900005D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9832B3226602F300005D37 /* DistanceServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceServicesTests.swift; sourceTree = "<group>"; };
+		4A9832B72266032000005D37 /* DirectionServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionServices.swift; sourceTree = "<group>"; };
 		50BF049D2C5ABF9F95C4FD11 /* Pods_VDMapFrameworkTestApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMapFrameworkTestApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		800CC03970CF9DFD373E0116 /* Pods-VDMapFrameworkTestApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D0697BA3FD06F9172750FD /* Pods-VDMapFrameworkTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMapFrameworkTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +196,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A9832A12266024900005D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -148,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				4A0D9DB2225CABCC00B4AB39 /* VDMapFrameworkTestApplication */,
+				4A9832A52266024900005D37 /* VDMapFrameworkTestApplicationTests */,
 				4A0D9DB1225CABCC00B4AB39 /* Products */,
 				74DC6EE4B0FA9AE8BA888E2C /* Pods */,
 				B4E53232FB463CEB413A4CF4 /* Frameworks */,
@@ -158,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				4A0D9DB0225CABCC00B4AB39 /* VDMapFrameworkTestApplication.app */,
+				4A9832A42266024900005D37 /* VDMapFrameworkTestApplicationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +384,72 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		4A3AE33B2266FEBB00D57C87 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE33C2266FECD00D57C87 /* MockNetworkManager.swift */,
+				4A3AE34F22673F4C00D57C87 /* MockDirectionService.swift */,
+				4A3AE35122673FAC00D57C87 /* MockDistanceService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4A3AE33E22670C4000D57C87 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE33F22670C6B00D57C87 /* DirectionMockData.json */,
+				4A3AE34122670E4D00D57C87 /* DistanceMockData.json */,
+				4A3AE3432267101400D57C87 /* TestData.swift */,
+				4A3AE3482267312000D57C87 /* ErrorMockData.json */,
+				4A3AE34A2267369200D57C87 /* FailureMockData.json */,
+				4A3AE3552267504D00D57C87 /* MockJsonString.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		4A3AE34C22673E2000D57C87 /* RoutingServices */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE34D22673E3800D57C87 /* RoutingServicesTests.swift */,
+			);
+			path = RoutingServices;
+			sourceTree = "<group>";
+		};
+		4A3AE35A22675FA900D57C87 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE35E22675FF500D57C87 /* MockMapTypeManager.swift */,
+				4A3AE3602267606700D57C87 /* MockThemeManager.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4A3AE35B22675FAF00D57C87 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE35322674C8000D57C87 /* MapTypeManagerTests.swift */,
+				4A3AE3572267509300D57C87 /* MapThemeManager.swift */,
+				4A3AE35C22675FDD00D57C87 /* MapStyleTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4A3AE364226880C400D57C87 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE366226880E600D57C87 /* MockRoutingService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4A3AE365226880CD00D57C87 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE36822688A5500D57C87 /* RoutingTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		4A3FDC18225F8CE10015060C /* EndpointProvider */ = {
 			isa = PBXGroup;
 			children = (
@@ -451,6 +581,81 @@
 			path = MapThemes;
 			sourceTree = "<group>";
 		};
+		4A9832A52266024900005D37 /* VDMapFrameworkTestApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE33E22670C4000D57C87 /* Stubs */,
+				4A3AE33B2266FEBB00D57C87 /* Mocks */,
+				4A9832B2226602B400005D37 /* Services */,
+				4A9832AE2266027200005D37 /* Features */,
+				4A9832A62266024900005D37 /* VDMapFrameworkTestApplicationTests.swift */,
+				4A9832A82266024900005D37 /* Info.plist */,
+			);
+			path = VDMapFrameworkTestApplicationTests;
+			sourceTree = "<group>";
+		};
+		4A9832AE2266027200005D37 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4A9832B12266029500005D37 /* Styling */,
+				4A9832B02266028C00005D37 /* TraficMonitoring */,
+				4A9832AF2266028400005D37 /* Routing */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4A9832AF2266028400005D37 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE365226880CD00D57C87 /* Tests */,
+				4A3AE364226880C400D57C87 /* Mocks */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		4A9832B02266028C00005D37 /* TraficMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE3622268604900D57C87 /* TrafficMonitoringTests.swift */,
+			);
+			path = TraficMonitoring;
+			sourceTree = "<group>";
+		};
+		4A9832B12266029500005D37 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE35B22675FAF00D57C87 /* Tests */,
+				4A3AE35A22675FA900D57C87 /* Mocks */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		4A9832B2226602B400005D37 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE34C22673E2000D57C87 /* RoutingServices */,
+				4A9832B62266030E00005D37 /* DirectionServices */,
+				4A9832B5226602F700005D37 /* DistanceServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4A9832B5226602F700005D37 /* DistanceServices */ = {
+			isa = PBXGroup;
+			children = (
+				4A9832B3226602F300005D37 /* DistanceServicesTests.swift */,
+			);
+			path = DistanceServices;
+			sourceTree = "<group>";
+		};
+		4A9832B62266030E00005D37 /* DirectionServices */ = {
+			isa = PBXGroup;
+			children = (
+				4A9832B72266032000005D37 /* DirectionServices.swift */,
+			);
+			path = DirectionServices;
+			sourceTree = "<group>";
+		};
 		74DC6EE4B0FA9AE8BA888E2C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +695,24 @@
 			productReference = 4A0D9DB0225CABCC00B4AB39 /* VDMapFrameworkTestApplication.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4A9832A32266024900005D37 /* VDMapFrameworkTestApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9832AD2266024900005D37 /* Build configuration list for PBXNativeTarget "VDMapFrameworkTestApplicationTests" */;
+			buildPhases = (
+				4A9832A02266024900005D37 /* Sources */,
+				4A9832A12266024900005D37 /* Frameworks */,
+				4A9832A22266024900005D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A9832AA2266024900005D37 /* PBXTargetDependency */,
+			);
+			name = VDMapFrameworkTestApplicationTests;
+			productName = VDMapFrameworkTestApplicationTests;
+			productReference = 4A9832A42266024900005D37 /* VDMapFrameworkTestApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -502,6 +725,10 @@
 				TargetAttributes = {
 					4A0D9DAF225CABCC00B4AB39 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					4A9832A32266024900005D37 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4A0D9DAF225CABCC00B4AB39;
 					};
 				};
 			};
@@ -519,6 +746,7 @@
 			projectRoot = "";
 			targets = (
 				4A0D9DAF225CABCC00B4AB39 /* VDMapFrameworkTestApplication */,
+				4A9832A32266024900005D37 /* VDMapFrameworkTestApplicationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -537,6 +765,18 @@
 				4A98329722648C8F00005D37 /* AubergineTheme.json in Resources */,
 				4A0D9DB9225CABCC00B4AB39 /* Main.storyboard in Resources */,
 				4A98328F22648C4200005D37 /* SilverTheme.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A9832A22266024900005D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AE34222670E4D00D57C87 /* DistanceMockData.json in Resources */,
+				4A3AE34022670C6B00D57C87 /* DirectionMockData.json in Resources */,
+				4A3AE359226758FD00D57C87 /* StandardTheme.json in Resources */,
+				4A3AE3492267312000D57C87 /* ErrorMockData.json in Resources */,
+				4A3AE34B2267369200D57C87 /* FailureMockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,7 +877,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A9832A02266024900005D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AE35022673F4C00D57C87 /* MockDirectionService.swift in Sources */,
+				4A9832B4226602F300005D37 /* DistanceServicesTests.swift in Sources */,
+				4A3AE35222673FAC00D57C87 /* MockDistanceService.swift in Sources */,
+				4A3AE3612267606700D57C87 /* MockThemeManager.swift in Sources */,
+				4A9832A72266024900005D37 /* VDMapFrameworkTestApplicationTests.swift in Sources */,
+				4A3AE3582267509300D57C87 /* MapThemeManager.swift in Sources */,
+				4A3AE367226880E600D57C87 /* MockRoutingService.swift in Sources */,
+				4A3AE3632268604900D57C87 /* TrafficMonitoringTests.swift in Sources */,
+				4A3AE34E22673E3800D57C87 /* RoutingServicesTests.swift in Sources */,
+				4A3AE33D2266FECD00D57C87 /* MockNetworkManager.swift in Sources */,
+				4A3AE35422674C8000D57C87 /* MapTypeManagerTests.swift in Sources */,
+				4A3AE35F22675FF500D57C87 /* MockMapTypeManager.swift in Sources */,
+				4A3AE35D22675FDD00D57C87 /* MapStyleTests.swift in Sources */,
+				4A3AE3442267101400D57C87 /* TestData.swift in Sources */,
+				4A3AE36922688A5500D57C87 /* RoutingTests.swift in Sources */,
+				4A3AE3562267504D00D57C87 /* MockJsonString.swift in Sources */,
+				4A9832B82266032000005D37 /* DirectionServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A9832AA2266024900005D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0D9DAF225CABCC00B4AB39 /* VDMapFrameworkTestApplication */;
+			targetProxy = 4A9832A92266024900005D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4A0D9DB7225CABCC00B4AB39 /* Main.storyboard */ = {
@@ -811,6 +1083,44 @@
 			};
 			name = Release;
 		};
+		4A9832AB2266024900005D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VDMapFrameworkTestApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osama.VDMapFrameworkTestApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VDMapFrameworkTestApplication.app/VDMapFrameworkTestApplication";
+			};
+			name = Debug;
+		};
+		4A9832AC2266024900005D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VDMapFrameworkTestApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osama.VDMapFrameworkTestApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VDMapFrameworkTestApplication.app/VDMapFrameworkTestApplication";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -828,6 +1138,15 @@
 			buildConfigurations = (
 				4A0D9DC3225CABCE00B4AB39 /* Debug */,
 				4A0D9DC4225CABCE00B4AB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9832AD2266024900005D37 /* Build configuration list for PBXNativeTarget "VDMapFrameworkTestApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9832AB2266024900005D37 /* Debug */,
+				4A9832AC2266024900005D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

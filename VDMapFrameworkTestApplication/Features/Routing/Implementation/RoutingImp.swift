@@ -9,7 +9,6 @@
 import Foundation
 import GoogleMaps
 
-
 public class RoutingImp : Routing{
     
     var mapView: GMSMapView
@@ -34,7 +33,7 @@ public class RoutingImp : Routing{
         }
     }
     
-    func getTimeAndDistance(routingInfoDTO: RouteInfoDTO, result: @escaping DistanceResultCompletion) {
+    func getDistanceData(routingInfoDTO: RouteInfoDTO, result: @escaping DistanceResultCompletion) {
         self.routingService.getTimeAndDistance(routeInfoDTO: routingInfoDTO) { [weak self](response) in
             guard let self = self else { return }
             switch response{
@@ -73,6 +72,4 @@ public class RoutingImp : Routing{
         singleLine.strokeColor = color
         singleLine.map = map
     }
-    
- 
 }

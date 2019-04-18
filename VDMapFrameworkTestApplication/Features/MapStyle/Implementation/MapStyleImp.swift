@@ -16,7 +16,9 @@ final class MapStyleImp : MapStyle{
     private var mapThemeManager : MapThemeManager
     
     var mapType: MapType{
-        get{ return self.mapTypeManager?.getVDMapType(type: self.mapView.mapType) ?? .normal  }
+        get{ return self.mapTypeManager?.getVDMapType(type: self.mapView.mapType) ?? .normal
+            
+        }
         set{
             let type = self.mapTypeManager?.getGMSMapType(type: newValue)
             self.mapView.mapType = type ?? .normal
@@ -26,7 +28,7 @@ final class MapStyleImp : MapStyle{
     init(mapView : GMSMapView, mapTypeManager : MapTypeManager = MapTypeManagerImp(), mapThemeManager : MapThemeManager = MapThemeManagerImp()) {
         self.mapView = mapView
         self.mapTypeManager = mapTypeManager
-        self.mapThemeManager = mapThemeManager //discuss krna hai
+        self.mapThemeManager = mapThemeManager 
     }
     
     func setDefaultTheme(theme: MapTheme) {

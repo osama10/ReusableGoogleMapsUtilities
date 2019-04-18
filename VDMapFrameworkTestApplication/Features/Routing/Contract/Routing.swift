@@ -12,7 +12,7 @@ import GoogleMaps
 protocol Routing {
     var mapView : GMSMapView{ get }
     func createPath(routingInfoDTO : RouteInfoDTO, width : CGFloat , color : UIColor, extraInfo : @escaping DirectionResultCompletion)
-    func getTimeAndDistance(routingInfoDTO : RouteInfoDTO , result : @escaping DistanceResultCompletion)
+    func getDistanceData(routingInfoDTO : RouteInfoDTO , result : @escaping DistanceResultCompletion)
 }
 
 

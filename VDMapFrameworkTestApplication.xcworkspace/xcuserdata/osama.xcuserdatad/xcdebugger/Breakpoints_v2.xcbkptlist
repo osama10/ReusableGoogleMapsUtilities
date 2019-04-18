@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VDMapFrameworkTestApplication/Network/Manager/URLSessionManager.swift"
-            timestampString = "576957461.1014301"
+            timestampString = "577279860.795693"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -102,16 +102,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VDMapFrameworkTestApplication/ViewController.swift"
-            timestampString = "576957461.101589"
+            filePath = "VDMapFrameworkTestApplicationTests/Features/Styling/MapThemeManager.swift"
+            timestampString = "577199476.212142"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "didTapOnMapTypeButton(_:)"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "testGetThemeFromFileFaliureFlow()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VDMapFrameworkTestApplicationTests/Features/Styling/Tests/MapStyleTests.swift"
+            timestampString = "577279860.798281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "testMapType()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VDMapFrameworkTestApplication/Features/TrafficMonitoring/Implementation/TrafficMonitoringImp.swift"
+            timestampString = "577267507.259465"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init(mapView:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

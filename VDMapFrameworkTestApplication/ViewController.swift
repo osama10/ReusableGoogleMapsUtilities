@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         let destination = CLLocationCoordinate2D(latitude: 24.9204, longitude: 67.1344)
         
         let routeInfo = RouteInfoDTO(origin : origin, destination : destination , key : googleMapsApiKey, mode: .driving, alternatives: .no)
-        self.routing.getTimeAndDistance(routingInfoDTO: routeInfo) { [weak self](response) in
+        self.routing.getDistanceData(routingInfoDTO: routeInfo) { [weak self](response) in
             guard let self = self else { return }
 
             switch response{

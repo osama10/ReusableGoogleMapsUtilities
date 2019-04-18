@@ -1,0 +1,26 @@
+{
+    "destination_addresses" : [
+        "Munawar Chorangi, Jauhar Chowrangi Rd, Block 3-A Block 14 Gulistan-e-Johar, Karachi, Karachi City, Sindh, Pakistan"
+    ],
+    "origin_addresses" : [
+        "Plot A 71, Block 5 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan"
+    ],
+    "rows" : [
+        {
+            "elements" : [
+                {
+                    "distance" : {
+                        "text" : "6.7 km",
+                        "value" : 6725
+                    },
+                    "duration" : {
+                        "text" : "15 mins",
+                        "value" : 889
+                    },
+                    "status" : "OK"
+                }
+            ]
+        }
+    ],
+    "status" : "OK"
+}

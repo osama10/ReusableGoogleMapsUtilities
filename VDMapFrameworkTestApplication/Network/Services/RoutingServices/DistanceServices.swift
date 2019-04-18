@@ -63,15 +63,15 @@ final class DistanceServicesImp : DistanceServices{
     
     private func mapDistanceResponseToDistanceData(distanceResponse : DistanceResponse)->DistanceData{
         
-        let elements = distanceResponse.rows.map{$0.elements}.flatMap{ $0 }
+        let elements = distanceResponse.rows?.map{$0.elements!}.flatMap{ $0 }
         
-        let distance = elements.reduce(0){ (result, next) -> Double in
-            return result + Double(next.distance.value)
+        let distance = elements?.reduce(0){ (result, next) -> Double in
+            return result + Double(next.distance?.value ?? 0)
         }
-        let eta = elements.reduce(0){ (result, next) -> Double in
-            return result + Double(next.duration.value)
+        let eta = elements?.reduce(0){ (result, next) -> Double in
+            return result + Double(next.duration?.value ?? 0)
         }
         
-        return DistanceData(eta : eta, distance : distance)
+        return DistanceData(eta : eta ?? 0, distance : distance ?? 0)
     }
 }
