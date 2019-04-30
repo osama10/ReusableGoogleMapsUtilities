@@ -10,4 +10,5 @@ import Foundation
 
 enum MapFrameworkException : Error{
     case themeFileNotFoundError(String)
+    case minZoomGreaterThanMaxZoom(String)
 }

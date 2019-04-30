@@ -31,7 +31,7 @@ class RoutingServicesTests: XCTestCase {
                 XCTAssertEqual(data.status, "DONE", "test failed")
                 expactations.fulfill()
             case .failure(let errorMessage):
-                print("Failure")
+                print("Failure : \(errorMessage)")
             }
         }
         wait(for: [expactations], timeout: 5.0)
@@ -47,7 +47,7 @@ class RoutingServicesTests: XCTestCase {
 
                 expactations.fulfill()
             case .failure(let errorMessage):
-                print("Failure")
+                print("Failure : \(errorMessage)")
             }
         }
         wait(for: [expactations], timeout: 5.0)

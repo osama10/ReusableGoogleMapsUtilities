@@ -147,5 +147,98 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VDMapFrameworkTestApplication/ViewController.swift"
+            timestampString = "578318766.803628"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VDMapFrameworkTestApplication.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; VDMapFrameworkTestApplication.ViewController"
+                  moduleName = "VDMapFrameworkTestApplication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/ViewController.swift"
+                  timestampString = "577803825.978806"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VDMapFrameworkTestApplication.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; VDMapFrameworkTestApplication.ViewController"
+                  moduleName = "VDMapFrameworkTestApplication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/ViewController.swift"
+                  timestampString = "577803825.981757"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VDMapFrameworkTestApplication.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;VDMapFrameworkTestApplication.ViewController&gt;"
+                  moduleName = "VDMapFrameworkTestApplication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/ViewController.swift"
+                  timestampString = "577803825.984206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VDMapFrameworkTestApplication.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;VDMapFrameworkTestApplication.ViewController&gt;"
+                  moduleName = "VDMapFrameworkTestApplication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/ViewController.swift"
+                  timestampString = "577803825.986643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VDMapFrameworkTestApplication.ViewController.__deallocating_deinit"
+                  moduleName = "VDMapFrameworkTestApplication"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osama/Documents/Xcodeporjects/VDMapFrameworkTestApplication/VDMapFrameworkTestApplication/ViewController.swift"
+                  timestampString = "577803825.989328"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

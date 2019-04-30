@@ -43,7 +43,7 @@ class RoutingTests: XCTestCase {
         routing.createPath(routingInfoDTO: mockRouteInfo , width: 6.0, color: .red) { (response) in
             switch response{
             case .success(let data):
-                print(data.status)
+                print(data.status ?? "Success")
             case .failure(let errorMessage):
                 XCTAssertEqual(errorMessage, somethingWentWrongErrorMessage, "test failed")
                 expectations.fulfill()

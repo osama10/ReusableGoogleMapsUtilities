@@ -65,7 +65,7 @@
                                         <rect key="frame" x="0.0" y="547" width="375" height="100"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zPn-mc-d3C">
-                                                <rect key="frame" x="28.5" y="35" width="318" height="30"/>
+                                                <rect key="frame" x="-40" y="35" width="455" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eq-KB-Ec6">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
@@ -100,6 +100,13 @@
                                                         <state key="normal" title="Terrain"/>
                                                         <connections>
                                                             <action selector="didTapOnMapTypeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LSM-gU-Zxl"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5N-5K-seg">
+                                                        <rect key="frame" x="338" y="0.0" width="117" height="30"/>
+                                                        <state key="normal" title="Show Search Bar"/>
+                                                        <connections>
+                                                            <action selector="didTapOnMapTypeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzb-uK-U5b"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>

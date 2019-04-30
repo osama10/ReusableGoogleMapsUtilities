@@ -46,7 +46,7 @@ class DistanceServicesTests: XCTestCase {
         
         distanceServices.getTimeAndDistance(routeInfoDTO: mockRouteInfo) { (response) in
             switch response{
-            case .success(let data):
+            case .success(_):
                 print("success")
             case .failure(let errorMessage):
                 XCTAssertEqual(errorMessage, somethingWentWrongErrorMessage, "Test failed")

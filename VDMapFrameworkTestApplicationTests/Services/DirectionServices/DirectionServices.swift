@@ -43,7 +43,7 @@ class DirectionServicesTests: XCTestCase {
         
         directionServices.getDirections(routeInfoDTO: mockRouteInfo) { (response) in
             switch response{
-            case .success(let data):
+            case .success(_):
                 print("success")
             case .failure(let errorMessage):
                 XCTAssertEqual(errorMessage, somethingWentWrongErrorMessage, "Test failed")
@@ -62,7 +62,7 @@ class DirectionServicesTests: XCTestCase {
         directionServices.getDirections(routeInfoDTO: mockRouteInfo) { (response) in
             switch response{
             case .success(let data):
-               print(data.status)
+               print(data.status ?? "Success")
             case .failure(let errorMessage):
                 XCTAssertEqual(errorMessage, somethingWentWrongErrorMessage, "Test failed")
                 expaction.fulfill()
@@ -81,7 +81,7 @@ class DirectionServicesTests: XCTestCase {
         directionServices.getDirections(routeInfoDTO: mockRouteInfo) { (response) in
             switch response{
             case .success(let data):
-                print(data.status)
+                print(data.status ?? "Success")
             case .failure(let errorMessage):
                 XCTAssertEqual(errorMessage, somethingWentWrongErrorMessage, "Test failed")
                 expaction.fulfill()

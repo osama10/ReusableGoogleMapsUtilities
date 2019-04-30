@@ -52,6 +52,11 @@
 		4A3AE3632268604900D57C87 /* TrafficMonitoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE3622268604900D57C87 /* TrafficMonitoringTests.swift */; };
 		4A3AE367226880E600D57C87 /* MockRoutingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE366226880E600D57C87 /* MockRoutingService.swift */; };
 		4A3AE36922688A5500D57C87 /* RoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE36822688A5500D57C87 /* RoutingTests.swift */; };
+		4A3AE36F226EF34C00D57C87 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE36E226EF34C00D57C87 /* CameraManager.swift */; };
+		4A3AE371226EF82D00D57C87 /* CameraManagerImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE370226EF82D00D57C87 /* CameraManagerImp.swift */; };
+		4A3AE37422704D3100D57C87 /* CameraManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE37322704D3100D57C87 /* CameraManagerTests.swift */; };
+		4A3AE37A22785D4B00D57C87 /* SearchBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE37922785D4B00D57C87 /* SearchBarManager.swift */; };
+		4A3AE37C2278600D00D57C87 /* SearchBarManagerImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AE37B2278600D00D57C87 /* SearchBarManagerImp.swift */; };
 		4A3FDC1A225F8CFD0015060C /* DistanceEndpointProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC19225F8CFD0015060C /* DistanceEndpointProvider.swift */; };
 		4A3FDC1C225FA7980015060C /* RouteInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC1B225FA7980015060C /* RouteInfoDTO.swift */; };
 		4A3FDC1E225FB40A0015060C /* DirectionsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3FDC1D225FB40A0015060C /* DirectionsResult.swift */; };
@@ -146,6 +151,11 @@
 		4A3AE3622268604900D57C87 /* TrafficMonitoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMonitoringTests.swift; sourceTree = "<group>"; };
 		4A3AE366226880E600D57C87 /* MockRoutingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoutingService.swift; sourceTree = "<group>"; };
 		4A3AE36822688A5500D57C87 /* RoutingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingTests.swift; sourceTree = "<group>"; };
+		4A3AE36E226EF34C00D57C87 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		4A3AE370226EF82D00D57C87 /* CameraManagerImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManagerImp.swift; sourceTree = "<group>"; };
+		4A3AE37322704D3100D57C87 /* CameraManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManagerTests.swift; sourceTree = "<group>"; };
+		4A3AE37922785D4B00D57C87 /* SearchBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarManager.swift; sourceTree = "<group>"; };
+		4A3AE37B2278600D00D57C87 /* SearchBarManagerImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarManagerImp.swift; sourceTree = "<group>"; };
 		4A3FDC19225F8CFD0015060C /* DistanceEndpointProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceEndpointProvider.swift; sourceTree = "<group>"; };
 		4A3FDC1B225FA7980015060C /* RouteInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteInfoDTO.swift; sourceTree = "<group>"; };
 		4A3FDC1D225FB40A0015060C /* DirectionsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsResult.swift; sourceTree = "<group>"; };
@@ -450,6 +460,80 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		4A3AE36A226DE45000D57C87 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE36D226DE63900D57C87 /* Model */,
+				4A3AE36C226DE63000D57C87 /* Contract */,
+				4A3AE36B226DE62300D57C87 /* Implementation */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		4A3AE36B226DE62300D57C87 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE370226EF82D00D57C87 /* CameraManagerImp.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		4A3AE36C226DE63000D57C87 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE36E226EF34C00D57C87 /* CameraManager.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		4A3AE36D226DE63900D57C87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A3AE37222704D1900D57C87 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE37322704D3100D57C87 /* CameraManagerTests.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		4A3AE37522784FA500D57C87 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE37822784FE600D57C87 /* Model */,
+				4A3AE37622784FCF00D57C87 /* Contract */,
+				4A3AE37722784FD600D57C87 /* Implementation */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		4A3AE37622784FCF00D57C87 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE37922785D4B00D57C87 /* SearchBarManager.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		4A3AE37722784FD600D57C87 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AE37B2278600D00D57C87 /* SearchBarManagerImp.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		4A3AE37822784FE600D57C87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4A3FDC18225F8CE10015060C /* EndpointProvider */ = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +573,8 @@
 		4A3FDC3D22639D1B0015060C /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				4A3AE37522784FA500D57C87 /* SearchBar */,
+				4A3AE36A226DE45000D57C87 /* Camera */,
 				4A3FDC412263A3060015060C /* MapStyle */,
 				4A3FDC3E22639D260015060C /* TrafficMonitoring */,
 				4A0D9DEB225E105E00B4AB39 /* Routing */,
@@ -597,6 +683,7 @@
 		4A9832AE2266027200005D37 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				4A3AE37222704D1900D57C87 /* Camera */,
 				4A9832B12266029500005D37 /* Styling */,
 				4A9832B02266028C00005D37 /* TraficMonitoring */,
 				4A9832AF2266028400005D37 /* Routing */,
@@ -809,10 +896,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VDMapFrameworkTestApplication/Pods-VDMapFrameworkTestApplication-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -851,14 +940,18 @@
 				4A0D9DE2225DD0E700B4AB39 /* EmptyDTO.swift in Sources */,
 				4A0D9DC9225CD02800B4AB39 /* SessionManagerStore.swift in Sources */,
 				4A0D9DEE225E10A800B4AB39 /* TravelMode.swift in Sources */,
+				4A3AE371226EF82D00D57C87 /* CameraManagerImp.swift in Sources */,
 				4A3FDC232260ADB50015060C /* Routing.swift in Sources */,
+				4A3AE37A22785D4B00D57C87 /* SearchBarManager.swift in Sources */,
 				4A0D9DE5225DD12600B4AB39 /* URLSessionManager.swift in Sources */,
 				4A0D9E20225E3BBF00B4AB39 /* Extensions.swift in Sources */,
 				4A3FDC452263A4D30015060C /* MapType.swift in Sources */,
+				4A3AE36F226EF34C00D57C87 /* CameraManager.swift in Sources */,
 				4A0D9DCC225CD55B00B4AB39 /* BaseURL.swift in Sources */,
 				4A3FDC1C225FA7980015060C /* RouteInfoDTO.swift in Sources */,
 				4A0D9DD6225CD7D800B4AB39 /* NetworkError.swift in Sources */,
 				4A3FDC3922637EA80015060C /* DistanceResult.swift in Sources */,
+				4A3AE37C2278600D00D57C87 /* SearchBarManagerImp.swift in Sources */,
 				4A3FDC482263A7120015060C /* MapStyleImp.swift in Sources */,
 				4A3FDC50226453CF0015060C /* MapStyle.swift in Sources */,
 				4A98329B2264915500005D37 /* MapThemeManager.swift in Sources */,
@@ -887,6 +980,7 @@
 				4A3AE3612267606700D57C87 /* MockThemeManager.swift in Sources */,
 				4A9832A72266024900005D37 /* VDMapFrameworkTestApplicationTests.swift in Sources */,
 				4A3AE3582267509300D57C87 /* MapThemeManager.swift in Sources */,
+				4A3AE37422704D3100D57C87 /* CameraManagerTests.swift in Sources */,
 				4A3AE367226880E600D57C87 /* MockRoutingService.swift in Sources */,
 				4A3AE3632268604900D57C87 /* TrafficMonitoringTests.swift in Sources */,
 				4A3AE34E22673E3800D57C87 /* RoutingServicesTests.swift in Sources */,
